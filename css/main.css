@@ -46,7 +46,6 @@ a:hover
   zoom: 1;
 }
 
-
 /* Styles */
 
 /* Site header */
@@ -241,18 +240,29 @@ ul.posts
 
 /* Media queries */
 
-@media screen and (max-width: 818px)
+@media screen and (max-width: 856px)
 {
-  .wrap { padding: 0 12px; }
-
-  .site-nav
+  body
   {
-    float: left;
+    text-size-adjust: none;
+    -moz-text-size-adjust: none;
+    -webkit-text-size-adjust: none;
+    -ms-text-size-adjust: none;
   }
-
-  .site-nav
+  .wrap
   {
-    display: block;
+    padding: 0 20px;
+  }
+  
+  .site-title, .site-nav
+  {
+    line-height: 40px;
+    width: 100%;
+    text-align: center;
+  }
+  .site-nav a:first-child
+  {
+    margin-left: 0;
   }
 }
 
