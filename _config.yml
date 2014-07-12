@@ -1,0 +1,33 @@
+# Site settings
+title: "Columbia University Formula SAE"
+email: "contact@columbiafsae.org"
+description: "Columbia University’s Formula SAE team. We build racecars."
+baseurl: ""
+url: "http://columbiafsae.org"
+
+# Build settings
+markdown: kramdown
+permalink: /:year/:month/:day/:title/
+
+# Navigation bar links
+navlinks:
+  - title: "Home"
+    url: "/"
+  - title: "About"
+    url: "/about/"
+  - title: "Blog"
+    url: "/blog/"
+  - title: "Contact"
+    url: "/contact/"
+
+# Theme
+# A good source for color palettes is Columbia's brand guidelines:
+# http://www.columbia.edu/files/columbia/content/color-palettes.pdf
+colors:
+  text: "#333"
+  background: "white"
+  tint: "#0067ac"
+  pastel: "#ddf1f7"
+  shading: "#86b2d2"
+  subdued: "#888"
+  highlight: "yellow"

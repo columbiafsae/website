@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>{{ page.title }} — {{ site.title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="{{ site.description }}">
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+
+    <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+  </head>
+
+  <body>
+    <header class="site-header">
+      <div class="wrap">
+        <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+        <nav class="site-nav">
+          <div class="trigger">
+            {% for page in site.navlinks %}
+            <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+            {% endfor %}
+          </div>
+        </nav>
+
+      </div>
+    </header>
+    
+    <div class="page wrap">
+    {{ content }}
+    </div>
+    
+    <footer class="site-footer">
+      <div class="wrap">
+        <p class="meta">Hi.</p>
+      </div>
+    </footer>
+  </body>
+</html>

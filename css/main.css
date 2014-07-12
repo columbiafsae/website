@@ -1,0 +1,490 @@
+---
+layout: none
+---
+
+/* Base */
+
+*
+{
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+html, body
+{
+  height: 100%;
+}
+
+body
+{
+  font-family: AvenirNext, Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  background-color: {{ site.colors.background }};
+}
+
+h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: 400; }
+
+a, a:visited
+{
+  color: {{ site.colors.tint }};
+  text-decoration: none;
+}
+a:hover
+{
+  text-decoration: underline;
+}
+
+/* Utility */
+
+.wrap:before,
+.wrap:after { content:""; display:table; }
+.wrap:after { clear: both; }
+.wrap {
+  max-width: 800px;
+  padding: 0 30px;
+  margin: 0 auto;
+  zoom: 1;
+}
+
+
+/* Styles */
+
+/* Site header */
+
+.site-header
+{
+  border-top: 5px solid {{ site.colors.tint }};
+  border-bottom: 1px solid {{ site.colors.pastel }};
+  min-height: 56px;
+}
+
+.site-title,
+.site-title:hover,
+.site-title:visited
+{
+  display: block;
+  color: {{ site.colors.text }};
+  font-size: 26px;
+  float: left;
+  position: relative;
+  z-index: 1;
+}
+
+.site-nav
+{
+  float: right;
+}
+
+.site-title, .site-nav
+{
+  line-height: 56px;
+}
+
+.site-nav .page-link
+{
+  margin-left: 20px;
+  color: {{ site.colors.subdued }};
+}
+
+/* Site footer */
+
+.site-footer
+{
+  border-top: 1px solid {{ site.colors.pastel }};
+  padding: 30px 0;
+}
+
+/* Page Content styles */
+
+.page
+{
+  padding: 30px 0;
+}
+
+/* Post styles */
+
+.post-header
+{
+  margin: 10px 0 30px;
+  text-align: center;
+}
+
+.post-header h1
+{
+  font-size: 42px;
+  line-height: 1;
+  font-weight: 800;
+}
+
+.meta
+{
+  color: {{ site.colors.subdued }};
+  margin-top: 5px;
+}
+
+.post-content
+{
+  margin: 0 0 30px;
+}
+.post-content > *
+{
+  margin: 20px 0;
+}
+
+.post-content h1,
+.post-content h2,
+.post-content h3,
+.post-content h4,
+.post-content h5,
+.post-content h6
+{
+  line-height: 1;
+  font-weight: 700;
+  margin: 40px 0 20px;
+}
+
+.post-content h2
+{
+  font-size: 32px;
+}
+
+.post-content h3
+{
+  font-size: 26px;
+}
+
+.post-content h4
+{
+  font-size: 20px;
+}
+
+.post-content blockquote
+{
+  border-left: 4px solid {{ site.colors.tint }};
+  padding-left: 20px;
+  font-size: 18px;
+  margin: 30px 0;
+}
+
+.page pre,
+.page code
+{
+  border: 1px solid {{ site.colors.shading }};
+  background-color: {{ site.colors.pastel }};
+  padding: 8px 12px;
+  font-size: 15px;
+}
+
+.page code { padding: 1px 5px; }
+
+.page ul,
+.page ol { margin-left: 1.35em; }
+
+.page pre code { border: none; }
+
+/* List of posts */
+
+.home h1 { margin-bottom: 25px; }
+
+ul.posts
+{
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.posts li
+{
+  margin-bottom: 30px;
+}
+
+.posts .post-link
+{
+  font-size: 24px;
+  line-height: 1;
+}
+
+.posts .meta
+{
+  display: block;
+}
+
+/* media queries */
+
+@media screen and (max-width: 818px)
+{
+  .wrap { padding: 0 12px; }
+
+  .site-nav
+  {
+    float: left;
+  }
+
+  .site-nav
+  {
+    display: block;
+  }
+}
+
+/* Fonts */
+
+@font-face
+{
+  font-family: AvenirNext;
+  src: /* local("AvenirNext-UltraLight"), local("Avenir Next Ultra Light"), */ url('{{ site.baseurl }}/fonts/AvenirNext-UltraLight.woff');
+  font-weight: 300;
+}
+
+@font-face
+{
+  font-family: AvenirNext;
+  src: /* local("AvenirNext-UltraLightItalic"), local("Avenir Next Ultra Light Italic"), */ url('{{ site.baseurl }}/fonts/AvenirNext-UltraLightItalic.woff');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face
+{
+  font-family: AvenirNext;
+  src: /* local("Avenir Next Regular"), local("AvenirNext-Regular"), */ url('{{ site.baseurl }}/fonts/AvenirNext-Regular.woff');
+  font-weight: 400;
+}
+
+@font-face
+{
+  font-family: AvenirNext;
+  src: /* local("Avenir Next Italic"), local("AvenirNext-Italic"), */ url('{{ site.baseurl }}/fonts/AvenirNext-Italic.woff');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face
+{
+  font-family: AvenirNext;
+  src: /* local("Avenir Next Medium"), local("AvenirNext-Medium"), */ url('{{ site.baseurl }}/fonts/AvenirNext-Medium.woff');
+  font-weight: 600;
+}
+
+@font-face
+{
+  font-family: AvenirNext;
+  src: /* local("AvenirNext-MediumItalic"), local("Avenir Next Medium Italic"), */ url('{{ site.baseurl }}/fonts/AvenirNext-MediumItalic.woff');
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face
+{
+  font-family: AvenirNext;
+  src: /* local("AvenirNext-DemiBold"), local("Avenir Next Demi Bold"), */ url('{{ site.baseurl }}/fonts/AvenirNext-DemiBold.woff');
+  font-weight: 700;
+}
+
+@font-face
+{
+  font-family: AvenirNext;
+  src: /* local("AvenirNext-DemiBoldItalic"), local("Avenir Next Demi Bold Italic"), */ url('{{ site.baseurl }}/fonts/AvenirNext-DemiBoldItalic.woff');
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face
+{
+  font-family: AvenirNext;
+  src: /* local("AvenirNext-Bold"), local("Avenir Next Bold"), */ url('{{ site.baseurl }}/fonts/AvenirNext-Bold.woff');
+  font-weight: 800;
+}
+
+@font-face
+{
+  font-family: AvenirNext;
+  src: /* local("Avenir Next Bold Italic"), local("AvenirNext-BoldItalic"), */ url('{{ site.baseurl }}/fonts/AvenirNext-BoldItalic.woff');
+  font-weight: 800;
+  font-style: italic;
+}
+
+@font-face
+{
+  font-family: AvenirNext;
+  src: /* local("AvenirNext-Heavy"), local("Avenir Next Heavy"), */ url('{{ site.baseurl }}/fonts/AvenirNext-Heavy.woff');
+  font-weight: 900;
+}
+
+@font-face
+{
+  font-family: AvenirNext;
+  src: /* local("Avenir Next Heavy Italic"), local("AvenirNext-HeavyItalic"), */ url('{{ site.baseurl }}/fonts/AvenirNext-HeavyItalic.woff');
+  font-weight: 900;
+  font-style: italic;
+}
+
+
+
+@font-face
+{
+  font-family: AvenirNextCondensed;
+  src: /* local("Avenir Next Condensed Ultra Light"), local("AvenirNextCondensed-UltraLight"), */ url('{{ site.baseurl }}/fonts/AvenirNextCondensed-UltraLight.woff');
+  font-stretch: condensed;
+  font-weight: 300;
+}
+
+@font-face
+{
+  font-family: AvenirNextCondensed;
+  src: /* local("AvenirNextCondensed-UltraLightItalic"), local("Avenir Next Condensed Ultra Light Italic"), */ url('{{ site.baseurl }}/fonts/AvenirNextCondensed-UltraLightItalic.woff');
+  font-stretch: condensed;
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face
+{
+  font-family: AvenirNextCondensed;
+  src: /* local("AvenirNextCondensed-Regular"), local("Avenir Next Condensed Regular"), */ url('{{ site.baseurl }}/fonts/AvenirNextCondensed-Regular.woff');
+  font-stretch: condensed;
+  font-weight: 400;
+}
+
+@font-face
+{
+  font-family: AvenirNextCondensed;
+  src: /* local("AvenirNextCondensed-Italic"), local("Avenir Next Condensed Italic"), */ url('{{ site.baseurl }}/fonts/AvenirNextCondensed-Italic.woff');
+  font-stretch: condensed;
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face
+{
+  font-family: AvenirNextCondensed;
+  src: /* local("AvenirNextCondensed-Medium"), local("Avenir Next Condensed Medium"), */ url('{{ site.baseurl }}/fonts/AvenirNextCondensed-Medium.woff');
+  font-stretch: condensed;
+  font-weight: 600;
+}
+
+@font-face
+{
+  font-family: AvenirNextCondensed;
+  src: /* local("Avenir Next Condensed Medium Italic"), local("AvenirNextCondensed-MediumItalic"), */ url('{{ site.baseurl }}/fonts/AvenirNextCondensed-MediumItalic.woff');
+  font-stretch: condensed;
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face
+{
+  font-family: AvenirNextCondensed;
+  src: /* local("AvenirNextCondensed-DemiBold"), local("Avenir Next Condensed Demi Bold"), */ url('{{ site.baseurl }}/fonts/AvenirNextCondensed-DemiBold.woff');
+  font-stretch: condensed;
+  font-weight: 700;
+}
+
+@font-face
+{
+  font-family: AvenirNextCondensed;
+  src: /* local("AvenirNextCondensed-DemiBoldItalic"), local("Avenir Next Condensed Demi Bold Italic"), */ url('{{ site.baseurl }}/fonts/AvenirNextCondensed-DemiBoldItalic.woff');
+  font-stretch: condensed;
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face
+{
+  font-family: AvenirNextCondensed;
+  src: /* local("Avenir Next Condensed Bold"), local("AvenirNextCondensed-Bold"), */ url('{{ site.baseurl }}/fonts/AvenirNextCondensed-Bold.woff');
+  font-stretch: condensed;
+  font-weight: 800;
+}
+
+@font-face
+{
+  font-family: AvenirNextCondensed;
+  src: /* local("AvenirNextCondensed-BoldItalic"), local("Avenir Next Condensed Bold Italic"), */ url('{{ site.baseurl }}/fonts/AvenirNextCondensed-BoldItalic.woff');
+  font-stretch: condensed;
+  font-weight: 800;
+  font-style: italic;
+}
+
+
+@font-face
+{
+  font-family: AvenirNextCondensed;
+  src: /* local("AvenirNextCondensed-Heavy"), local("Avenir Next Condensed Heavy"), */ url('{{ site.baseurl }}/fonts/AvenirNextCondensed-Heavy.woff');
+  font-stretch: condensed;
+  font-weight: 900;
+}
+
+@font-face
+{
+  font-family: AvenirNextCondensed;
+  src: /* local("Avenir Next Condensed Heavy Italic"), local("AvenirNextCondensed-HeavyItalic"), */ url('{{ site.baseurl }}/fonts/AvenirNextCondensed-HeavyItalic.woff');
+  font-stretch: condensed;
+  font-weight: 900;
+  font-style: italic;
+}
+
+/* Syntax highlighting styles */
+/* ----------------------------------------------------------*/
+
+.highlight  { background: #ffffff; }
+.highlight .c { color: #999988; font-style: italic } /* Comment */
+.highlight .err { color: #a61717; background-color: #e3d2d2 } /* Error */
+.highlight .k { font-weight: bold } /* Keyword */
+.highlight .o { font-weight: bold } /* Operator */
+.highlight .cm { color: #999988; font-style: italic } /* Comment.Multiline */
+.highlight .cp { color: #999999; font-weight: bold } /* Comment.Preproc */
+.highlight .c1 { color: #999988; font-style: italic } /* Comment.Single */
+.highlight .cs { color: #999999; font-weight: bold; font-style: italic } /* Comment.Special */
+.highlight .gd { color: #000000; background-color: #ffdddd } /* Generic.Deleted */
+.highlight .gd .x { color: #000000; background-color: #ffaaaa } /* Generic.Deleted.Specific */
+.highlight .ge { font-style: italic } /* Generic.Emph */
+.highlight .gr { color: #aa0000 } /* Generic.Error */
+.highlight .gh { color: #999999 } /* Generic.Heading */
+.highlight .gi { color: #000000; background-color: #ddffdd } /* Generic.Inserted */
+.highlight .gi .x { color: #000000; background-color: #aaffaa } /* Generic.Inserted.Specific */
+.highlight .go { color: #888888 } /* Generic.Output */
+.highlight .gp { color: #555555 } /* Generic.Prompt */
+.highlight .gs { font-weight: bold } /* Generic.Strong */
+.highlight .gu { color: #aaaaaa } /* Generic.Subheading */
+.highlight .gt { color: #aa0000 } /* Generic.Traceback */
+.highlight .kc { font-weight: bold } /* Keyword.Constant */
+.highlight .kd { font-weight: bold } /* Keyword.Declaration */
+.highlight .kp { font-weight: bold } /* Keyword.Pseudo */
+.highlight .kr { font-weight: bold } /* Keyword.Reserved */
+.highlight .kt { color: #445588; font-weight: bold } /* Keyword.Type */
+.highlight .m { color: #009999 } /* Literal.Number */
+.highlight .s { color: #d14 } /* Literal.String */
+.highlight .na { color: #008080 } /* Name.Attribute */
+.highlight .nb { color: #0086B3 } /* Name.Builtin */
+.highlight .nc { color: #445588; font-weight: bold } /* Name.Class */
+.highlight .no { color: #008080 } /* Name.Constant */
+.highlight .ni { color: #800080 } /* Name.Entity */
+.highlight .ne { color: #990000; font-weight: bold } /* Name.Exception */
+.highlight .nf { color: #990000; font-weight: bold } /* Name.Function */
+.highlight .nn { color: #555555 } /* Name.Namespace */
+.highlight .nt { color: #000080 } /* Name.Tag */
+.highlight .nv { color: #008080 } /* Name.Variable */
+.highlight .ow { font-weight: bold } /* Operator.Word */
+.highlight .w { color: #bbbbbb } /* Text.Whitespace */
+.highlight .mf { color: #009999 } /* Literal.Number.Float */
+.highlight .mh { color: #009999 } /* Literal.Number.Hex */
+.highlight .mi { color: #009999 } /* Literal.Number.Integer */
+.highlight .mo { color: #009999 } /* Literal.Number.Oct */
+.highlight .sb { color: #d14 } /* Literal.String.Backtick */
+.highlight .sc { color: #d14 } /* Literal.String.Char */
+.highlight .sd { color: #d14 } /* Literal.String.Doc */
+.highlight .s2 { color: #d14 } /* Literal.String.Double */
+.highlight .se { color: #d14 } /* Literal.String.Escape */
+.highlight .sh { color: #d14 } /* Literal.String.Heredoc */
+.highlight .si { color: #d14 } /* Literal.String.Interpol */
+.highlight .sx { color: #d14 } /* Literal.String.Other */
+.highlight .sr { color: #009926 } /* Literal.String.Regex */
+.highlight .s1 { color: #d14 } /* Literal.String.Single */
+.highlight .ss { color: #990073 } /* Literal.String.Symbol */
+.highlight .bp { color: #999999 } /* Name.Builtin.Pseudo */
+.highlight .vc { color: #008080 } /* Name.Variable.Class */
+.highlight .vg { color: #008080 } /* Name.Variable.Global */
+.highlight .vi { color: #008080 } /* Name.Variable.Instance */
+.highlight .il { color: #009999 } /* Literal.Number.Integer.Long */
