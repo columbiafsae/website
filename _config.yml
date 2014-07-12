@@ -1,9 +1,10 @@
 # Site settings
-title: "Columbia University Formula SAE"
+title: "Knickerbocker Motorsports"
 email: "contact@columbiafsae.org"
 description: "Columbia University’s Formula SAE team. We build racecars."
 baseurl: ""
 url: "http://columbiafsae.org"
+assets: "/assets"
 
 # Build settings
 markdown: kramdown

@@ -27,13 +27,12 @@
       </div>
     </header>
     
-    <div class="page wrap">
     {{ content }}
-    </div>
     
     <footer class="site-footer">
       <div class="wrap">
-        <p class="meta">Hi.</p>
+        <img src="{{ "/fsae-logo.svg" | prepend: site.assets | prepend: site.baseurl }}" height="50px">
+        <p class="meta">{{ site.description }}</p>
       </div>
     </footer>
   </body>
