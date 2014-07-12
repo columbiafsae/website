@@ -14,10 +14,14 @@ permalink: /:year/:month/:day/:title/
 navlinks:
   - title: "Home"
     url: "/"
-  - title: "About"
-    url: "/about/"
+  - title: "Cars"
+    url: "/cars/2014/"
+  - title: "Team"
+    url: "/team/2014/"
   - title: "Blog"
     url: "/blog/"
+  - title: "Sponsors"
+    url: "/sponsors/"
   - title: "Contact"
     url: "/contact/"
 
