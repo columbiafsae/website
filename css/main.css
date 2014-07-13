@@ -39,6 +39,13 @@ mark
   background-color: {{ site.colors.highlight }};
 }
 
+.columns
+{
+  column-count: 2;
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
+}
+
 /* Utility */
 
 .wrap:before,
@@ -86,7 +93,7 @@ mark
 
 .site-nav .page-link
 {
-  margin-left: 15px;
+  margin-left: 10px;
   color: {{ site.colors.subdued }};
 }
 

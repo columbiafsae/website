@@ -18,6 +18,8 @@ navlinks:
     url: "/cars/2014/"
   - title: "Team"
     url: "/team/2014/"
+  - title: "Shop"
+    url: "/shop/"
   - title: "Blog"
     url: "/blog/"
   - title: "Sponsors"
