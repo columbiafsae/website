@@ -34,7 +34,7 @@ a:hover
   text-decoration: underline;
 }
 
-mark
+mark, .fake-mark
 {
   background-color: {{ site.colors.highlight }};
 }
@@ -246,18 +246,26 @@ ul.posts
   background: url("{{ "/home/kmr-2014-hero.jpg" | prepend: site.assets | prepend: site.baseurl; }}") no-repeat;
   background-position: 50% 50%;
   background-size: 1440px auto;
+  text-decoration: none;
 }
 
 .hero p
 {
   color: white;
   font-weight: 300;
-  font-size: 86px;
   letter-spacing: -0.05em;
-  line-height: 1;
+  line-height: 1.2;
   text-align: center;
-  padding-top: 0.7em;
   text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.5);
+}
+.hero .headline
+{
+  font-size: 86px;
+  padding-top: 0.4em;
+}
+.hero .subtitle
+{
+  font-size: 60px;
 }
 
 /* Media queries */
@@ -292,9 +300,13 @@ ul.posts
     background-size: 168.2% auto; /* 1440px/856px = 1.682 */
     height: 583px; /* 750px / 856px * 700px - 30px */
   }
-  .hero p
+  .hero .headline
   {
     font-size: 70px;
+  }
+  .hero .subtitle
+  {
+    font-size: 52px;
   }
 }
 
@@ -302,20 +314,37 @@ ul.posts
 {
   .hero p
   {
-    font-size: 40px;
     font-weight: 400;
+  }
+  .hero .headline
+  {
+    font-size: 40px;
+  }
+  .hero .subtitle
+  {
+    font-size: 30px;
   }
   .home .hero
   {
     height: 384px; /* 470px / 856px * 700px - 30px */
   }
+  .columns
+  {
+    column-count: 1;
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+  }
 }
 
 @media screen and (max-width: 470px)
 {
-  .hero p
+  .hero .headline
   {
     font-size: 30px;
+  }
+  .hero .subtitle
+  {
+    font-size: 22px;
   }
   .home .hero
   {
