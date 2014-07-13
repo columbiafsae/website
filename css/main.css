@@ -86,7 +86,7 @@ mark
 
 .site-nav .page-link
 {
-  margin-left: 20px;
+  margin-left: 15px;
   color: {{ site.colors.subdued }};
 }
 
@@ -105,8 +105,6 @@ mark
 {
   padding: 30px 0;
 }
-
-/* Post styles */
 
 .page-header
 {
@@ -133,14 +131,15 @@ mark
 }
 .page-content > *
 {
-  margin: 20px 0;
+  margin-top: 18px;
+  margin-bottom: 18px;
 }
 
 h1, h2, h3, h4, h5, h6
 {
   line-height: 1;
   font-weight: 700;
-  margin: 40px 0 20px;
+  margin: 20px 0 20px 0;
 }
 
 .page-content h2
@@ -161,26 +160,37 @@ h1, h2, h3, h4, h5, h6
 .page-content blockquote
 {
   border-left: 4px solid {{ site.colors.tint }};
-  padding-left: 20px;
-  font-size: 18px;
-  margin: 30px 0;
+  padding-left: 1em;
+  margin: 1em 0;
 }
 
-.page pre,
-.page code
+pre,
+code
 {
   border: 1px solid {{ site.colors.shading }};
   background-color: {{ site.colors.pastel }};
-  padding: 8px 12px;
+  font-family: Menlo, Consolas, monospace;
   font-size: 15px;
 }
 
-.page code { padding: 1px 5px; }
+pre
+{
+  padding: 8px 12px;
+}
+code
+{
+  padding: 1px 4px;
+}
+pre code
+{
+  border: 0;
+  padding: 0;
+}
 
-.page ul,
-.page ol { margin-left: 1.35em; }
-
-.page pre code { border: none; }
+ul, ol
+{
+  margin-left: 1.35em;
+}
 
 /* List of posts */
 
@@ -303,6 +313,18 @@ ul.posts
   .home .hero
   {
     height: 215px; /* 300px / 856px * 700px - 30px */
+  }
+  .site-nav .page-link
+  {
+    margin-left: 5px;
+  }
+  .site-title
+  {
+    font-size: 20px;
+  }
+  .site-nav .page-link, .site-footer p
+  {
+    font-size: 13px;
   }
 }
 
