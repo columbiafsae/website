@@ -60,6 +60,13 @@ mark, .fake-mark
 
 /* Styles */
 
+/* Outdated IE warning */
+.ie-warn
+{
+  background-color: {{ site.colors.highlight }};
+  line-height: 56px;
+}
+
 /* Site header */
 
 .site-header
