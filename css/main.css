@@ -72,6 +72,10 @@ mark, .fake-mark
 .site-header
 {
   border-top: 5px solid {{ site.colors.tint }};
+}
+
+.site-header, .subheader
+{
   border-bottom: 1px solid {{ site.colors.pastel }};
   min-height: 56px;
 }
@@ -93,15 +97,34 @@ mark, .fake-mark
   float: right;
 }
 
-.site-title, .site-nav
+.site-title, .site-nav, .subnav
 {
   line-height: 56px;
 }
 
-.site-nav .page-link
+.site-nav a
+{
+  color: {{ site.colors.subdued }};
+}
+
+.site-nav a, .subnav a
 {
   margin-left: 10px;
-  color: {{ site.colors.subdued }};
+  
+}
+
+.subnav
+{
+  float: right;
+  position: relative;
+  left: -50%; /* or right 50% */
+  text-align: left;
+}
+
+.subnav > .page-link
+{
+  position: relative;
+  left: 50%;
 }
 
 /* Site footer */
