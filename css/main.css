@@ -166,17 +166,27 @@ mark, .fake-mark
 {
   margin: 0 0 30px;
 }
-.page-content > *
+article > *
 {
   margin-top: 18px;
   margin-bottom: 18px;
+}
+
+article h1,
+article h2,
+article h3,
+article h4,
+article h5,
+article h6
+{
+  margin: 26px 0 14px 0;
 }
 
 h1, h2, h3, h4, h5, h6
 {
   line-height: 1;
   font-weight: 700;
-  margin: 20px 0 20px 0;
+  margin: 18px 0 18px 0;
 }
 
 .page-content h2
