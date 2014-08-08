@@ -426,7 +426,9 @@ ul.posts
   {
     margin-left: 5px;
   }
-  .site-title
+  .site-title,
+  .site-title:hover,
+  .site-title:active
   {
     font-size: 20px;
   }
