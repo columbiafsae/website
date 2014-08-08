@@ -24,6 +24,11 @@ body
   background-color: {{ site.colors.background }};
 }
 
+strong, b
+{
+  font-weight: 700;
+}
+
 a, a:visited
 {
   color: {{ site.colors.tint }};
@@ -106,11 +111,14 @@ mark, .fake-mark
 {
   color: {{ site.colors.subdued }};
 }
+.site-nav a:hover
+{
+  color: {{ site.colors.text }};
+}
 
 .site-nav a, .subnav a
 {
   margin-left: 10px;
-  
 }
 
 .subnav
@@ -125,6 +133,11 @@ mark, .fake-mark
 {
   position: relative;
   left: 50%;
+}
+
+.subnav .page-link.selected
+{
+  font-weight: 700;
 }
 
 /* Site footer */

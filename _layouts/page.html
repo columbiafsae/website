@@ -7,7 +7,7 @@ layout: default
   <div class="wrap">
     <nav class="subnav">
       {% for link in page.subnavlinks %}
-      <a class="page-link" href="{{ link.url | prepend: site.baseurl }}">{{ link.title }}</a>
+      <a class="page-link {% if link.url == page.permalink %}selected{% endif%}" href="{{ link.url | prepend: site.baseurl }}">{{ link.title }}</a>
       {% endfor %}
     </nav>
   </div>
