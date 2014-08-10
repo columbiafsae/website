@@ -3,6 +3,11 @@ title: "Shop"
 layout: page
 permalink: /shop/
 ---
+<div class="columns">
+  {% for i in (1..2) %}
+  <img src="{{ site.baseurl }}{{ site.assets }}/team/shop-{{ i }}.jpg" width="388">
+  {% endfor %}
+</div>
 
 Knickerbocker Motorsports members have access to some of the finest design and manufacturing equipment available. We are fortunate to have our very own space in the basement of Mudd, in addition to the Mechanical Engineering department’s machine shop on the second floor.
 
