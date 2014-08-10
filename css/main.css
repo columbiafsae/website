@@ -44,6 +44,25 @@ mark, .fake-mark
   background-color: {{ site.colors.highlight }};
 }
 
+table
+{
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+thead, th
+{
+  background-color: {{ site.colors.tint }};
+  color: {{ site.colors.background }};
+}
+th, td
+{
+  padding: 5px 20px;
+}
+tr:nth-child(even)
+{
+    background-color: {{ site.colors.pastel }};
+}
+
 .columns
 {
   column-count: 2;
