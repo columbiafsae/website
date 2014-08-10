@@ -1,6 +1,6 @@
 ---
 title: "2013–2014 Team"
-layout: page
+layout: subnav.team
 permalink: /team/2014/
 ---
 

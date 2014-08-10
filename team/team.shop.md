@@ -1,11 +1,12 @@
 ---
-title: "Shop"
-layout: page
-permalink: /shop/
+title: "Our Machine Shop"
+layout: subnav.team
+permalink: /team/shop/
 ---
+
 <div class="columns">
   {% for i in (1..2) %}
-  <img src="{{ site.baseurl }}{{ site.assets }}/team/shop-{{ i }}.jpg" width="388">
+  <img src="{{ site.baseurl }}{{ site.assets }}/team/shop-{{ i }}.jpg" width="388" height="291">
   {% endfor %}
 </div>
 
