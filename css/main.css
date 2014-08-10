@@ -375,6 +375,12 @@ ul.posts
     padding-bottom: 20px;
   }
   
+  img, video, iframe, object
+  {
+    max-width: 100%;
+    height: auto;
+  }
+  
   .site-title, .site-nav
   {
     line-height: 40px;
