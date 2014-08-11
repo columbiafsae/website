@@ -10,6 +10,14 @@
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
     <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+    
+    {% for path in page.inject_css %}
+    <link rel="stylesheet" href="{{ path | prepend: "/css/" | prepend: site.baseurl }}">
+    {% endfor %}
+    
+    {% for js in page.inject_js %}
+    <script src="{{ js.url | prepend: "/js/" | prepend: site.baseurl }}" {{ js.type }}></script>
+    {% endfor %}
   </head>
 
   <body>

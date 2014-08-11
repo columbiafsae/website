@@ -1,0 +1,13 @@
+---
+layout: none
+---
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="27px" height="27px" viewBox="0 0 27 27" enable-background="new 0 0 27 27" xml:space="preserve">
+<g>
+	<path fill="{{ site.colors.background }}" d="M12.095,13.526L2,3.401L3.352,2L13.5,12.124L23.595,2L25,3.401L14.906,13.526L25,23.599L23.595,25
+		L13.5,14.876L3.352,25L2,23.599L12.095,13.526z"/>
+</g>
+</svg>
