@@ -18,6 +18,8 @@ navlinks:
     url: "/cars/2014/"
   - title: "Team"
     url: "/team/"
+  - title: "Gallery"
+    url: "/gallery/2014/"
   - title: "Blog"
     url: "/blog/"
   - title: "Sponsors"
@@ -36,3 +38,10 @@ colors:
   shading: "#86b2d2"
   subdued: "#888"
   highlight: "#ffff99"
+
+# Galleries
+mini_magick:
+  thumbnail:
+    source: assets/galleries/2014
+    destination: assets/galleries/2014/thumbs
+    resize: "x250"

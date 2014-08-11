@@ -1,0 +1,16 @@
+---
+title: "Gallery"
+layout: page
+permalink: /gallery/2014/
+
+inject_js:
+  - url: "jquery-1.11.0.min.js"
+    type: 
+  - url: "lightbox.js"
+    type: 
+inject_css:
+  - "lightbox.css"
+---
+
+{% capture base %}{{ "/galleries/2014/" | prepend: site.assets | prepend: site.baseurl }}{% endcapture %}
+{% include gallery.html gallery_id="mygallery1" image_base=base %}
