@@ -10,11 +10,9 @@
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
     <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
-    
     {% for path in page.inject_css %}
     <link rel="stylesheet" href="{{ path | prepend: "/css/" | prepend: site.baseurl }}">
     {% endfor %}
-    
     {% for js in page.inject_js %}
     <script src="{{ js.url | prepend: "/js/" | prepend: site.baseurl }}" {{ js.type }}></script>
     {% endfor %}
@@ -33,7 +31,7 @@
         <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
         <nav class="site-nav">
           {% for page in site.navlinks %}
-          <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+          <a class="page-link" id="navlink-{{ page.title | downcase }}" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
           {% endfor %}
         </nav>
       </div>

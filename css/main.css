@@ -458,6 +458,10 @@ a.gallery-item
   {
     margin: 0 3px 3px 0;
   }
+  #navlink-home
+  {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 470px)
@@ -474,9 +478,13 @@ a.gallery-item
   {
     height: 215px; /* 300px / 856px * 700px - 30px */
   }
+  .site-title, .site-nav
+  {
+    line-height: 30px;
+  }
   .site-nav .page-link
   {
-    margin-left: 5px;
+    margin-left: 4px;
   }
   .site-title,
   .site-title:hover,
