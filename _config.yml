@@ -44,4 +44,4 @@ mini_magick:
   thumbnail:
     source: assets/galleries/2014
     destination: assets/galleries/2014/thumbs
-    resize: "x250"
+    resize: "x300"

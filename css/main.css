@@ -355,6 +355,21 @@ ul.posts
   font-size: 60px;
 }
 
+/* Gallery */
+
+img.gallery-item
+{
+  height: 150px;
+  width: auto;
+}
+a.gallery-item
+{
+  display: inline-block;
+  float: left;
+  font-size: 0; /* trick to remove spacing on inline-block elements */
+  margin: 0 7px 7px 0;
+}
+
 /* Media queries */
 
 @media screen and (max-width: 856px)
@@ -430,6 +445,18 @@ ul.posts
     column-count: 1;
     -webkit-column-count: 1;
     -moz-column-count: 1;
+  }
+}
+
+@media screen and (max-width: 600px)
+{
+  img.gallery-item
+  {
+    height: 75px;
+  }
+  a.gallery-item
+  {
+    margin: 0 3px 3px 0;
   }
 }
 
