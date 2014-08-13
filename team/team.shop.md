@@ -10,25 +10,25 @@ permalink: /team/shop/
   {% endfor %}
 </div>
 
-Knickerbocker Motorsports members have access to some of the finest design and manufacturing equipment available. We are fortunate to have our very own space in the basement of Mudd, in addition to the Mechanical Engineering department’s machine shop on the second floor.
+Knickerbocker Motorsports members have access to some of the finest design and manufacturing equipment available. We’re unique in that we have our very own space in the basement of Mudd, in addition to the Mechanical Engineering department’s machine shop on the second floor.
 
-Over the course of the school year, students take learn to use 3D printing, machinable wax models, CNC mills, and more to develop precise parts for our car. Mechanical engineers get a head start in gaining hands-on experience toward their majors, while students from other departments have the opportunity of learning to use equipment they wouldn’t have been exposed to otherwise.
+Over the course of the school year, students learn to use 3D printing, machinable wax models, CNC mills, and more to develop precise parts for our car. Mechanical engineers get a head start in gaining hands-on experience toward their majors, while students from other departments have the opportunity of learning to use equipment they wouldn’t have been exposed to otherwise.
 
-<!--
+{% comment %}
 <script type="text/javascript">
-/*result = "Door Sensor";
+result = "Door Sensor";
 
 var req = new XMLHttpRequest();
-req.open('GET', 'http://door.servebeer.com/', false);
+req.open("GET", "http://door.servebeer.com/", false);
 req.send(null);
 if (req.status == 200)
 {
   dump(req.responseText);
 }
 
-document.getElementById("shop-status").innerHTML = result;*/
+document.getElementById("shop-status").innerHTML = result;
 </script>
--->
+{% endcomment %}
 
 <h2 id="shop-status">Door Sensor</h2>
 
