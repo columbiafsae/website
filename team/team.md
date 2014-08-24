@@ -4,6 +4,8 @@ layout: subnav.team
 permalink: /team/
 ---
 
+We are a highly motivated group of undergraduate and graduate students. Our team is incredibly diverse: majors range from Mechanical Engineering to Music, and our members come from around the world. Nevertheless, the team is one of the most cohesive groups on campus. Members can often be found doing homework and hanging out together. Strong and lasting friendships are formed that last long past graduation.
+
 ## Our Vision
 
 As members of Knickerbocker Motorsports, we aim not only to build the most competitive racecar possible, but also to create friendships, connections, memories, and character. 
