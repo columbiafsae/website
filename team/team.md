@@ -18,6 +18,8 @@ We are always improving. We are confident that, one day, our team will place in 
 
 ## Join
 
+If you're an incoming first-year interested in joining the team, **attend one of our info sessions!** [See our Facebook event to sign up.](https://www.facebook.com/events/293106800883682/)
+
 The team holds brief planning meetings on Wednesday nights, and meets more extensively for shop days on Fridays. In addition, older members hold workshops, teaching you everything you need to know about building a racecar.
 
 For more information, please [get in touch]({{ "/contact/" | prepend: site.baseurl }})!
