@@ -14,6 +14,10 @@ For more information on sponsorships, please feel free to [contact us]({{ "/cont
 
 Alcoa is not only the world's leader in aluminum production and fabrication, but also one of KM's largest sponsors. Alcoa stands behind our philosophy of using extremely light and cutting-edge materials on our racecar to ensure our success.
 
+## [Deatschwerks](http://www.deatschwerks.com)
+
+Deatschwerks provides top performance fuel pumps, injectors, and other must-have products to FSAE teams. Prior to the 2014 competition, Deatschwerks assisted the team by giving our competition injectors their magical fuel injector servicing and by providing our endurance-finishing fuel pump. Given that fuel issues were part of our issue finishing endurance the year prior, we greatly appreciate Deatschwerks' contributions!
+
 ## [SOMS Technologies](http://www.microgreenfilter.com/)
 
 SOMS Technologies' MicroGreen oil filters are the most advanced oil filters on the market. The feature a patented active and passive filtration system that has been proven to increase the life of the oil, reduce oil consumption, and reduce oil filter consumption. Microgreen oil filters are designed to protect engines and the environment. SOMS Technologies provides KM with oil filters and testing equipment for our engines.
