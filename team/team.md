@@ -22,4 +22,8 @@ If you're an incoming first-year interested in joining the team, **attend one of
 
 The team holds brief planning meetings on Wednesday nights, and meets more extensively for shop days on Fridays. In addition, older members hold workshops, teaching you everything you need to know about building a racecar.
 
-For more information, please [get in touch]({{ "/contact/" | prepend: site.baseurl }})!
+For more information, please sign up for our mailing list below or [get in touch]({{ "/contact/" | prepend: site.baseurl }})!
+
+## Subscribe to our mailing list
+
+{% include subscribe-freshmen.md %}

@@ -16,7 +16,7 @@ html, body
   height: 100%;
 }
 
-body
+body, input
 {
   font-family: AvenirNext, "Segoe UI", Helvetica, sans-serif;
   font-size: 18px;
@@ -68,6 +68,13 @@ tr:nth-child(even)
   column-count: 2;
   -webkit-column-count: 2;
   -moz-column-count: 2;
+}
+
+/* Disable WebKit glow */
+:focus
+{
+  outline-color: transparent;
+  outline-style: none;
 }
 
 /* Utility */
@@ -311,6 +318,54 @@ ul.posts
 .posts .meta
 {
   display: block;
+}
+
+/* Forms */
+
+/* Disable Mobile Safari default appearance */
+input, textarea
+{
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+}
+
+label
+{
+  margin-right: 5px;
+  display: inline-block;
+  width: 55px;
+  text-align: right;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"]
+{
+  border: 1px solid {{ site.colors.pastel }};
+  background-color: {{ site.colors.pastel }};
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 5px;
+  width: 200px;
+}
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus
+{
+  border: 1px solid {{ site.colors.tint }};
+}
+
+input[type="submit"]
+{
+  background-color: {{ site.colors.tint }};
+  cursor: pointer;
+  color: {{ site.colors.pastel }};
+  padding: 15px;
+  line-height: 1;
+}
+input[type="submit"]:hover
+{
+  color: {{ site.colors.background }};
 }
 
 /* Homepage */
