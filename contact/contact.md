@@ -21,6 +21,8 @@ element.href = "mailto:" + email;
 
 **Facebook:** [fb.com/ColumbiaFSAE](http://www.facebook.com/ColumbiaFSAE)
 
+**Instagram:** [instagram.com/ColumbiaFSAE](http://instagram.com/columbiafsae)
+
 ## Legacy Communications
 **Shop Phone:** (212)&nbsp;851-0257
 
