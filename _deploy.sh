@@ -1,8 +1,8 @@
 #!/bin/bash
 
 USER="kevin"
-REMOTE="kevinchen.co"
-REMOTE_DIR="/var/www/fsae.kevinchen.co/"
+REMOTE="columbiafsae.org"
+REMOTE_DIR="/var/www/columbiafsae.org/"
 
 echo "Regenerating site..."
 rm -rf _site
