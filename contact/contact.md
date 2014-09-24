@@ -29,7 +29,7 @@ element.href = "mailto:" + email;
 **Postal Mail:**<br>
 Columbia University Formula SAE<br>
 Room 220 Mudd<br>
-500 W 114th St<br>
+500 W 120th St<br>
 New York NY 10027<br>
 
 ## Visiting the Shop
