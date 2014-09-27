@@ -14,9 +14,33 @@ For more information on sponsorships, please feel free to [contact us]({{ "/cont
 
 Alcoa is not only the world's leader in aluminum production and fabrication, but also one of KM's largest sponsors. Alcoa stands behind our philosophy of using extremely light and cutting-edge materials on our racecar to ensure our success.
 
+## [Altair](http://www.altair.com)
+
+Altair makes [HyperWorks](http://www.altairhyperworks.com), an industry-leading CAE tool. Our team uses HyperWorks to perform topology optimization -- on the [2014 car's]({{ "/cars/kmr-2014/" | prepend: site.baseurl }}) rockers, reducing their weight by over 50&nbsp;percent.
+
+## [Atlassian](https://www.atlassian.com)
+
+Atlassian creates award-winning enterprise software that helps teams work better together. Over 35,000 customers use their products to build wikis, bug trackers, group chatrooms, and more. [Confluence](https://www.atlassian.com/software/confluence) and [JIRA](https://www.atlassian.com/software/jira) are helping the team become more organized by retaining institutional knowledge from year to year and by making sure important tasks get done. 
+
+## [Coastal Enterprises](http://precisionboard.com)
+
+Coastal Enterprises specializes in manufacturing Precision Board Plus High Density Urethane (HDU). These foam boards have a variety of applications, including sign making, modeling, prototypes, and tool making. The team received a donation of Coastal Enterprises foam for creating a seat mold. 
+
 ## [Deatschwerks](http://www.deatschwerks.com)
 
 Deatschwerks provides top performance fuel pumps, injectors, and other must-have products to FSAE teams. Prior to the 2014 competition, Deatschwerks assisted the team by giving our competition injectors their magical fuel injector servicing and by providing our endurance-finishing fuel pump. Given that fuel issues were part of our issue finishing endurance the year prior, we greatly appreciate Deatschwerks' contributions!
+
+## [Espo's Powder Coating](http://espospowdercoating.com)
+
+Located in Staten Island, New York, Espo's provides incredibly high-quality powder coating and sandblasting services. Since 2013, they have been powder coating our chassis, anti-roll bars, and other car parts, as well as helping us install our tires.
+
+## [EVS Metal](http://www.evsmetal.com)
+
+EVS is a leading sheet metal manufacturer that also has the capability to manufacture, assemble, and test entire systems. We have worked has worked closely with EVS's friendly team, cutting and folding chassis tabs, fuel tanks, and trigger wheels in their New Jersey manufacturing facility. 
+
+## [KDF Reprographics](http://kdf-comp.com)
+
+KDF specializes in large-format printing, such as car wraps, banners, and murals. They can even help design the graphics, and they also offer custom CNC routing services. The team works with KDF to create molds for large carbon fiber layups that would otherwise be beyond our means, such as the seat mold.
 
 ## [SOMS Technologies](http://www.microgreenfilter.com/)
 
@@ -25,6 +49,10 @@ SOMS Technologies' MicroGreen oil filters are the most advanced oil filters on t
 ## [Zoltek Companies](http://www.zoltek.com/)
 
 Zoltek is one of the world's leading provider of commercial carbon fiber products. Zoltek has generously provided KM with uni-directionl carbon fiber for this year's active aerodynamics kit. Zoltek specializes in the development, manufacturing, and marketing of high purity carbon fiber used in everything from sporting goods, automobiles, and renewable energy projects. As the team continues on its current path to success, KM looks forward to using more of Zoltek's carbon fiber products in the years to come.
+
+## [Monster Beverage Corporation](http://www.monsterenergy.com)
+
+Monster Beverage Corporation created Monster, a popular energy drink. But Monster is more than a drink --- it's a lifestyle in a can. The company sponsors athletes, musicians, and of course, racers. 
 
 ## [Morel Industries](http://www.morelindustries.com/aluminum-metal-castings-foundry-company-seattle-washington)
 
@@ -46,6 +74,14 @@ Carbotech performance brakes feature a unique brake pad technology that is now b
 
 DENSO is a leading supplier of advanced automotive technology, systems, and components for all the world's major automakers. DENSO's patented iridium alloy is extremely tough and wear-resistant. Their Iridium spark plugs give a stronger spark and better ignition performance in all areas of driving. DENSO furnishes our team with Iridium spark plugs.
 
+## [GrabCAD](https://grabcad.com)
+
+GrabCAD makes mechanical engineers' lives easier by solving the CAD file management problem. With easy-to-use version control and conflict resolution, GrabCAD allows our designers to work on the same project without worrying about keeping things up to date. Their innovative web viewer makes sharing designs easy, eliminating the need to install an entire CAD package just to view a file.
+
+## [Paramount Metal Finishing](http://www.paramountmetalfinishing.com)
+
+Paramount Metal Finishing specializes in applying coatings on metal and plastic substrates, including plating, painting, and anodizing. The company allows us to use their facilities to color many of our aluminum parts, such as the rockers. 
+
 ## [PTC](http://www.ptc.com/)
 
 PTC creates industry-leading products to bring the best in product development software. Their integrated solutions have enabled PTC to help customers optimize their product development processes and realize greater business value. PTC donates copies of their Pro/Engineer CAD software, which we use heavily in design and analysis for our vehicle components.
@@ -53,6 +89,10 @@ PTC creates industry-leading products to bring the best in product development s
 ## [Timken](http://www.timken.com/)
 
 For more than 100 years, Timken has focused on value creation for diverse industries and market segments. They deliver a variety of friction management and power transmission solutions for applications ranging from aircraft and automobiles to mining equipment and medical instruments. Timken provides the wheel bearings for the car.
+
+## [Tri-Power Design and Engineering](http://www.tripowerdesign.com)
+
+Tri-Power is New Jersey's premier product engineering, design, and manufacturing firm. They specialize in custom manufacturing and functional prototypes, quickly iterating through prototypes to help clients build what they need. In 2014, Tri-Power machined many aluminum parts, including clevises and rockers.
 
 ## [Carleton Laboratory](http://carleton.columbia.edu)
 
