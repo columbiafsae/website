@@ -10,9 +10,38 @@ From Fortune 500 companies to local organizations, Knickerbocker Motorsports is 
 
 For more information on sponsorships, please feel free to [contact us]({{ "/contact/" | prepend: site.baseurl }}) directly.
 
-## [Alcoa Inc.](http://www.alcoa.com/)
+## Platinum Sponsors
 
+{% capture desc %}
 Alcoa is not only the world's leader in aluminum production and fabrication, but also one of KM's largest sponsors. Alcoa stands behind our philosophy of using extremely light and cutting-edge materials on our racecar to ensure our success.
+{% endcapture %}
+{% include sponsor.md company="Alcoa" url="http://www.alcoa.com" description=desc logo_url="alcoa.svg" logo_w="400" logo_h="300" %}
+
+## Gold Sponsors
+
+{% capture desc %}
+PTC creates industry-leading products to bring the best in product development software. Their integrated solutions have enabled PTC to help customers optimize their product development processes and realize greater business value. PTC donates copies of their Pro/Engineer CAD software, which we use heavily in design and analysis for our vehicle components.
+{% endcapture %}
+{% include sponsor.md company="PTC" url="http://www.ptc.com" description=desc logo_url="ptc.svg" logo_w="400" logo_h="300" %}
+
+## Silver Sponsors
+
+
+
+## Bronze Sponsors
+
+{% capture desc %}
+Located in Staten Island, New York, Espo's provides incredibly high-quality powder coating and sandblasting services. Since 2013, they have been powder coating our chassis, anti-roll bars, and other car parts, as well as helping us install our tires.
+{% endcapture %}
+{% include sponsor.md company="Espo's Powder Coating" url="http://espospowdercoating.com" description=desc logo_url="espos-powder-coating.svg" logo_w="200" logo_h="200" %}
+
+## Partners
+
+
+
+## Friends of the Team
+
+
 
 ## [Altair](http://www.altair.com)
 
@@ -29,10 +58,6 @@ Coastal Enterprises specializes in manufacturing Precision Board Plus High Densi
 ## [Deatschwerks](http://www.deatschwerks.com)
 
 Deatschwerks provides top performance fuel pumps, injectors, and other must-have products to FSAE teams. Prior to the 2014 competition, Deatschwerks assisted the team by giving our competition injectors their magical fuel injector servicing and by providing our endurance-finishing fuel pump. Given that fuel issues were part of our issue finishing endurance the year prior, we greatly appreciate Deatschwerks' contributions!
-
-## [Espo's Powder Coating](http://espospowdercoating.com)
-
-Located in Staten Island, New York, Espo's provides incredibly high-quality powder coating and sandblasting services. Since 2013, they have been powder coating our chassis, anti-roll bars, and other car parts, as well as helping us install our tires.
 
 ## [EVS Metal](http://www.evsmetal.com)
 
@@ -81,10 +106,6 @@ GrabCAD makes mechanical engineers' lives easier by solving the CAD file managem
 ## [Paramount Metal Finishing](http://www.paramountmetalfinishing.com)
 
 Paramount Metal Finishing specializes in applying coatings on metal and plastic substrates, including plating, painting, and anodizing. The company allows us to use their facilities to color many of our aluminum parts, such as the rockers. 
-
-## [PTC](http://www.ptc.com/)
-
-PTC creates industry-leading products to bring the best in product development software. Their integrated solutions have enabled PTC to help customers optimize their product development processes and realize greater business value. PTC donates copies of their Pro/Engineer CAD software, which we use heavily in design and analysis for our vehicle components.
 
 ## [Timken](http://www.timken.com/)
 
