@@ -10,7 +10,7 @@ From Fortune 500 companies to local organizations, Knickerbocker Motorsports is 
 
 For more information on sponsorships, please feel free to [contact us]({{ "/contact/" | prepend: site.baseurl }}) directly.
 
-## Platinum Sponsors
+## Title Sponsors
 
 {% capture desc %}
 Alcoa is not only the world's leader in aluminum production and fabrication, but also one of KM's largest sponsors. Alcoa stands behind our philosophy of using extremely light and cutting-edge materials on our racecar to ensure our success.
@@ -20,20 +20,43 @@ Alcoa is not only the world's leader in aluminum production and fabrication, but
 ## Gold Sponsors
 
 {% capture desc %}
+Atlassian creates award-winning enterprise software that helps teams work better together. Over 35,000 customers use their products to build wikis, bug trackers, group chatrooms, and more. [Confluence](https://www.atlassian.com/software/confluence) and [JIRA](https://www.atlassian.com/software/jira) are helping the team become more organized by retaining institutional knowledge from year to year and by making sure important tasks get done. 
+{% endcapture %}
+{% include sponsor.md company="Atlassian" url="https://www.atlassian.com" description=desc logo_url="atlassian.svg" logo_w="400" logo_h="300" %}
+
+{% capture desc %}
 PTC creates industry-leading products to bring the best in product development software. Their integrated solutions have enabled PTC to help customers optimize their product development processes and realize greater business value. PTC donates copies of their Pro/Engineer CAD software, which we use heavily in design and analysis for our vehicle components.
 {% endcapture %}
 {% include sponsor.md company="PTC" url="http://www.ptc.com" description=desc logo_url="ptc.svg" logo_w="400" logo_h="300" %}
 
 ## Silver Sponsors
 
+{% capture desc %}
+EVS is a leading sheet metal manufacturer that also has the capability to manufacture, assemble, and test entire systems. We have worked has worked closely with EVS's friendly team, cutting and folding chassis tabs, fuel tanks, and trigger wheels in their New Jersey manufacturing facility. 
+{% endcapture %}
+{% include sponsor.md company="EVS Metal" url="http://www.evsmetal.com" description=desc logo_url="evs-metal.svg" logo_w="300" logo_h="213" %}
 
+{% capture desc %}
+Zoltek is one of the world's leading provider of commercial carbon fiber products. Their high purity carbon fiber is used in everything --- including sporting goods, automobiles, and renewable energy projects. Zoltek has generously provided KM with uni-directional carbon fiber for our aerodynamics projects. We look forward to using more of Zoltek's carbon fiber products in the years to come.
+{% endcapture %}
+{% include sponsor.md company="Zoltek Companies" url="http://www.zoltek.com/" description=desc logo_url="zoltek.svg" logo_w="300" logo_h="270" %}
 
 ## Bronze Sponsors
+
+{% capture desc %}
+DENSO is a leading supplier of advanced automotive technology, systems, and components for all the world's major automakers. DENSO's patented iridium alloy is extremely tough and wear-resistant. Their Iridium spark plugs give a stronger spark and better ignition performance in all areas of driving. DENSO furnishes our team with Iridium spark plugs.
+{% endcapture %}
+{% include sponsor.md company="DENSO" url="http://densoiridium.com" description=desc logo_url="denso.svg" logo_w="200" logo_h="213" %}
 
 {% capture desc %}
 Located in Staten Island, New York, Espo's provides incredibly high-quality powder coating and sandblasting services. Since 2013, they have been powder coating our chassis, anti-roll bars, and other car parts, as well as helping us install our tires.
 {% endcapture %}
 {% include sponsor.md company="Espo's Powder Coating" url="http://espospowdercoating.com" description=desc logo_url="espos-powder-coating.svg" logo_w="200" logo_h="200" %}
+
+{% capture desc %}
+KDF specializes in large-format printing, such as car wraps, banners, and murals. They can even help design the graphics, and they also offer custom CNC routing services. The team works with KDF to create molds for large carbon fiber layups that would otherwise be beyond our means, such as the seat mold.
+{% endcapture %}
+{% include sponsor.md company="KDF Reprographics" url="http://kdf-comp.com" description=desc logo_url="kdf.svg" logo_w="200" logo_h="185" %}
 
 ## Partners
 
@@ -45,11 +68,7 @@ Located in Staten Island, New York, Espo's provides incredibly high-quality powd
 
 ## [Altair](http://www.altair.com)
 
-Altair makes [HyperWorks](http://www.altairhyperworks.com), an industry-leading CAE tool. Our team uses HyperWorks to perform topology optimization -- on the [2014 car's]({{ "/cars/kmr-2014/" | prepend: site.baseurl }}) rockers, reducing their weight by over 50&nbsp;percent.
-
-## [Atlassian](https://www.atlassian.com)
-
-Atlassian creates award-winning enterprise software that helps teams work better together. Over 35,000 customers use their products to build wikis, bug trackers, group chatrooms, and more. [Confluence](https://www.atlassian.com/software/confluence) and [JIRA](https://www.atlassian.com/software/jira) are helping the team become more organized by retaining institutional knowledge from year to year and by making sure important tasks get done. 
+Altair makes [HyperWorks](http://www.altairhyperworks.com), an industry-leading CAE tool. Our team uses HyperWorks to perform topology optimization -- on the [2014 car's]({{ "/cars/2014/" | prepend: site.baseurl }}) rockers, reducing their weight by over 50&nbsp;percent.
 
 ## [Coastal Enterprises](http://precisionboard.com)
 
@@ -59,21 +78,10 @@ Coastal Enterprises specializes in manufacturing Precision Board Plus High Densi
 
 Deatschwerks provides top performance fuel pumps, injectors, and other must-have products to FSAE teams. Prior to the 2014 competition, Deatschwerks assisted the team by giving our competition injectors their magical fuel injector servicing and by providing our endurance-finishing fuel pump. Given that fuel issues were part of our issue finishing endurance the year prior, we greatly appreciate Deatschwerks' contributions!
 
-## [EVS Metal](http://www.evsmetal.com)
-
-EVS is a leading sheet metal manufacturer that also has the capability to manufacture, assemble, and test entire systems. We have worked has worked closely with EVS's friendly team, cutting and folding chassis tabs, fuel tanks, and trigger wheels in their New Jersey manufacturing facility. 
-
-## [KDF Reprographics](http://kdf-comp.com)
-
-KDF specializes in large-format printing, such as car wraps, banners, and murals. They can even help design the graphics, and they also offer custom CNC routing services. The team works with KDF to create molds for large carbon fiber layups that would otherwise be beyond our means, such as the seat mold.
-
 ## [SOMS Technologies](http://www.microgreenfilter.com/)
 
 SOMS Technologies' MicroGreen oil filters are the most advanced oil filters on the market. The feature a patented active and passive filtration system that has been proven to increase the life of the oil, reduce oil consumption, and reduce oil filter consumption. Microgreen oil filters are designed to protect engines and the environment. SOMS Technologies provides KM with oil filters and testing equipment for our engines.
 
-## [Zoltek Companies](http://www.zoltek.com/)
-
-Zoltek is one of the world's leading provider of commercial carbon fiber products. Zoltek has generously provided KM with uni-directionl carbon fiber for this year's active aerodynamics kit. Zoltek specializes in the development, manufacturing, and marketing of high purity carbon fiber used in everything from sporting goods, automobiles, and renewable energy projects. As the team continues on its current path to success, KM looks forward to using more of Zoltek's carbon fiber products in the years to come.
 
 ## [Monster Beverage Corporation](http://www.monsterenergy.com)
 
@@ -94,10 +102,6 @@ Founded in 1895, Lincoln is the world leader in the design, development and manu
 ## [Carbotech Performance Brakes](http://www.ctbrakes.com/)
 
 Carbotech performance brakes feature a unique brake pad technology that is now being used by pro racers, club racers, tuners, and law enforcement agencies across the country. We receive custom brake pads from Carbotech.
-
-## [DENSO](http://densoiridium.com/)
-
-DENSO is a leading supplier of advanced automotive technology, systems, and components for all the world's major automakers. DENSO's patented iridium alloy is extremely tough and wear-resistant. Their Iridium spark plugs give a stronger spark and better ignition performance in all areas of driving. DENSO furnishes our team with Iridium spark plugs.
 
 ## [GrabCAD](https://grabcad.com)
 
