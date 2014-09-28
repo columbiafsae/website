@@ -4,4 +4,3 @@ layout: subnav.team
 permalink: /team/2014/
 ---
 
-Hi
