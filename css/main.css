@@ -450,6 +450,12 @@ a.gallery-item
   margin-bottom: 20px;
 }
 
+.sponsor-heading
+{
+  text-align: center;
+  margin-top: 50px;
+}
+
 /* Media queries */
 
 @media screen and (max-width: 856px)

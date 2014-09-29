@@ -10,14 +10,24 @@ From Fortune 500 companies to local organizations, Knickerbocker Motorsports is 
 
 For more information on sponsorships, please feel free to [contact us]({{ "/contact/" | prepend: site.baseurl }}) directly.
 
-## Title Sponsors
+<h2 class="sponsor-heading">Title Sponsors</h2>
 
 {% capture desc %}
 Alcoa is not only the world's leader in aluminum production and fabrication, but also one of KM's largest sponsors. Alcoa stands behind our philosophy of using extremely light and cutting-edge materials on our racecar to ensure our success.
 {% endcapture %}
 {% include sponsor.md company="Alcoa" url="http://www.alcoa.com" description=desc logo_url="alcoa.svg" logo_w="400" logo_h="300" %}
 
-## Gold Sponsors
+{% capture desc %}
+The Department of Mechanical Engineering is the backbone of Knickerbocker Motorsports. Located on the second floor of Mudd, the Mechanical Engineering department has a state-of-the-art machine shop, CAD computer lab, and the friendlist staff on all of campus!
+{% endcapture %}
+{% include sponsor.md company="Columbia University Mechanical Engineering" url="http://me.columbia.edu/" description=desc logo_url="columbia-engineering.svg" logo_w="400" logo_h="240" %}
+
+{% capture desc %}
+The Activities Board at Columbia (ABC) is the governing board that oversees Columbia FSAE as an undergraduate student group on campus. There are currently 155 organizations recognized by ABC, including cultural clubs, performance groups, publications, and special events.
+{% endcapture %}
+{% include sponsor.md company="Columbia Activities Board" url="http://www.cuactivitiesboard.org" description=desc logo_url="columbia-abc.png" logo_w="400" logo_h="213" %}
+
+<h2 class="sponsor-heading">Gold Sponsors</h2>
 
 {% capture desc %}
 Atlassian creates award-winning enterprise software that helps teams work better together. Over 35,000 customers use their products to build wikis, bug trackers, group chatrooms, and more. [Confluence](https://www.atlassian.com/software/confluence) and [JIRA](https://www.atlassian.com/software/jira) are helping the team become more organized by retaining institutional knowledge from year to year and by making sure important tasks get done. 
@@ -25,11 +35,16 @@ Atlassian creates award-winning enterprise software that helps teams work better
 {% include sponsor.md company="Atlassian" url="https://www.atlassian.com" description=desc logo_url="atlassian.svg" logo_w="400" logo_h="300" %}
 
 {% capture desc %}
+Coastal Enterprises specializes in manufacturing Precision Board Plus High Density Urethane (HDU). These foam boards have a variety of applications, including sign making, modeling, prototypes, and tool making. The team received a donation of Coastal Enterprises foam for creating a seat mold. 
+{% endcapture %}
+{% include sponsor.md company="Coastal Enterprises" url="http://precisionboard.com" description=desc logo_url="coastal-enterprises.jpg" logo_w="400" logo_h="400" %}
+
+{% capture desc %}
 PTC creates industry-leading products to bring the best in product development software. Their integrated solutions have enabled PTC to help customers optimize their product development processes and realize greater business value. PTC donates copies of their Pro/Engineer CAD software, which we use heavily in design and analysis for our vehicle components.
 {% endcapture %}
 {% include sponsor.md company="PTC" url="http://www.ptc.com" description=desc logo_url="ptc.svg" logo_w="400" logo_h="300" %}
 
-## Silver Sponsors
+<h2 class="sponsor-heading">Silver Sponsors</h2>
 
 {% capture desc %}
 EVS is a leading sheet metal manufacturer that also has the capability to manufacture, assemble, and test entire systems. We have worked has worked closely with EVS's friendly team, cutting and folding chassis tabs, fuel tanks, and trigger wheels in their New Jersey manufacturing facility. 
@@ -37,16 +52,41 @@ EVS is a leading sheet metal manufacturer that also has the capability to manufa
 {% include sponsor.md company="EVS Metal" url="http://www.evsmetal.com" description=desc logo_url="evs-metal.svg" logo_w="300" logo_h="213" %}
 
 {% capture desc %}
+GrabCAD makes mechanical engineers' lives easier by solving the CAD file management problem. With easy-to-use version control and conflict resolution, GrabCAD allows our designers to work on the same project without worrying about keeping things up to date. Their innovative web viewer makes sharing designs easy, eliminating the need to install an entire CAD package just to view a file.
+{% endcapture %}
+{% include sponsor.md company="GrabCAD" url="https://grabcad.com/" description=desc logo_url="grabcad.svg" logo_w="300" logo_h="240" %}
+
+{% capture desc %}
+As a family owned company, the Morels have been in the foundry industry for generations. Specializing in some of the finest castings in the country, Morel Industries prides itself on quality and quick casting as well as machining. Morel Industries has gratiously helped KM in casting and machining this year's uprights.
+{% endcapture %}
+{% include sponsor.md company="Morel Industries" url="http://www.morelindustries.com/aluminum-metal-castings-foundry-company-seattle-washington" description=desc logo_url="morel-industries.svg" logo_w="300" logo_h="213" %}
+
+{% capture desc %}
+Tri-Power is New Jersey's premier product engineering, design, and manufacturing firm. They specialize in custom manufacturing and functional prototypes, quickly iterating through prototypes to help clients build what they need. In 2014, Tri-Power machined many aluminum parts, including clevises and rockers.
+{% endcapture %}
+{% include sponsor.md company="Tri-Power Design and Engineering" url="http://www.tripowerdesign.com" description=desc logo_url="tri-power-design.png" logo_w="300" logo_h="213" %}
+
+{% capture desc %}
 Zoltek is one of the world's leading provider of commercial carbon fiber products. Their high purity carbon fiber is used in everything --- including sporting goods, automobiles, and renewable energy projects. Zoltek has generously provided KM with uni-directional carbon fiber for our aerodynamics projects. We look forward to using more of Zoltek's carbon fiber products in the years to come.
 {% endcapture %}
 {% include sponsor.md company="Zoltek Companies" url="http://www.zoltek.com/" description=desc logo_url="zoltek.svg" logo_w="300" logo_h="270" %}
 
-## Bronze Sponsors
+<h2 class="sponsor-heading">Bronze Sponsors</h2>
+
+{% capture desc %}
+Altair makes [HyperWorks](http://www.altairhyperworks.com), an industry-leading CAE tool. Our team uses HyperWorks to perform topology optimization --- on the [2014 car's]({{ "/cars/2014/" | prepend: site.baseurl }}) rockers, reducing their weight by over 50&nbsp;percent.
+{% endcapture %}
+{% include sponsor.md company="Altair" url="http://www.altair.com" description=desc logo_url="altair.png" logo_w="200" logo_h="200" %}
 
 {% capture desc %}
 DENSO is a leading supplier of advanced automotive technology, systems, and components for all the world's major automakers. DENSO's patented iridium alloy is extremely tough and wear-resistant. Their Iridium spark plugs give a stronger spark and better ignition performance in all areas of driving. DENSO furnishes our team with Iridium spark plugs.
 {% endcapture %}
 {% include sponsor.md company="DENSO" url="http://densoiridium.com" description=desc logo_url="denso.svg" logo_w="200" logo_h="213" %}
+
+{% capture desc %}
+Deatschwerks provides high-performance fuel systems solutions, including fuel pumps and injectors. During the 2014 season, Deatschwerks performed testing on our fuel injectors and donated an endurance-finishing fuel pump, solving our fuel issues from the previous year!
+{% endcapture %}
+{% include sponsor.md company="Deatschwerks" url="http://www.deatschwerks.com" description=desc logo_url="deatschwerks.jpg" logo_w="200" logo_h="190" %}
 
 {% capture desc %}
 Located in Staten Island, New York, Espo's provides incredibly high-quality powder coating and sandblasting services. Since 2013, they have been powder coating our chassis, anti-roll bars, and other car parts, as well as helping us install our tires.
@@ -56,40 +96,30 @@ Located in Staten Island, New York, Espo's provides incredibly high-quality powd
 {% capture desc %}
 KDF specializes in large-format printing, such as car wraps, banners, and murals. They can even help design the graphics, and they also offer custom CNC routing services. The team works with KDF to create molds for large carbon fiber layups that would otherwise be beyond our means, such as the seat mold.
 {% endcapture %}
-{% include sponsor.md company="KDF Reprographics" url="http://kdf-comp.com" description=desc logo_url="kdf.svg" logo_w="200" logo_h="185" %}
+{% include sponsor.md company="KDF Reprographics" url="http://kdf-comp.com" description=desc logo_url="kdf.svg" logo_w="200" logo_h="187" %}
 
-## Partners
-
-
-
-## Friends of the Team
-
-
-
-## [Altair](http://www.altair.com)
-
-Altair makes [HyperWorks](http://www.altairhyperworks.com), an industry-leading CAE tool. Our team uses HyperWorks to perform topology optimization -- on the [2014 car's]({{ "/cars/2014/" | prepend: site.baseurl }}) rockers, reducing their weight by over 50&nbsp;percent.
-
-## [Coastal Enterprises](http://precisionboard.com)
-
-Coastal Enterprises specializes in manufacturing Precision Board Plus High Density Urethane (HDU). These foam boards have a variety of applications, including sign making, modeling, prototypes, and tool making. The team received a donation of Coastal Enterprises foam for creating a seat mold. 
-
-## [Deatschwerks](http://www.deatschwerks.com)
-
-Deatschwerks provides top performance fuel pumps, injectors, and other must-have products to FSAE teams. Prior to the 2014 competition, Deatschwerks assisted the team by giving our competition injectors their magical fuel injector servicing and by providing our endurance-finishing fuel pump. Given that fuel issues were part of our issue finishing endurance the year prior, we greatly appreciate Deatschwerks' contributions!
-
-## [SOMS Technologies](http://www.microgreenfilter.com/)
-
-SOMS Technologies' MicroGreen oil filters are the most advanced oil filters on the market. The feature a patented active and passive filtration system that has been proven to increase the life of the oil, reduce oil consumption, and reduce oil filter consumption. Microgreen oil filters are designed to protect engines and the environment. SOMS Technologies provides KM with oil filters and testing equipment for our engines.
-
-
-## [Monster Beverage Corporation](http://www.monsterenergy.com)
-
+{% capture desc %}
 Monster Beverage Corporation created Monster, a popular energy drink. But Monster is more than a drink --- it's a lifestyle in a can. The company sponsors athletes, musicians, and of course, racers. 
+{% endcapture %}
+{% include sponsor.md company="Monster Beverage Corporation" url="http://www.monsterenergy.com" description=desc logo_url="monster.jpg" logo_w="200" logo_h="130" %}
 
-## [Morel Industries](http://www.morelindustries.com/aluminum-metal-castings-foundry-company-seattle-washington)
+<h2 class="sponsor-heading">Partners</h2>
 
-As a family owned company, the Morels have been in the foundry industry for generations. Specializing in some of the finest castings in the country, Morel Industries prides itself on quality and quick casting as well as machining. Morel Industries has gratiously helped KM in casting and machining this year's uprights.
+{% capture desc %}
+Paramount Metal Finishing specializes in applying coatings on metal and plastic substrates, including plating, painting, and anodizing. The company allows us to use their facilities to color many of our aluminum parts, such as the rockers. 
+{% endcapture %}
+{% include sponsor.md company="Paramount Metal Finishing" url="http://www.paramountmetalfinishing.com" description=desc logo_url="paramount-metal-finishing.jpg" logo_w="200" logo_h="160" %}
+
+{% capture desc %}
+SOMS Technologies' MicroGreen oil filters are the most advanced filters on the market. The feature a patented active and passive filtration system that has been proven to increase the life of the oil, reduce oil consumption, and reduce oil filter consumption. MicroGreen oil filters are designed to protect engines and the environment. SOMS Technologies provides KM with oil filters and testing equipment for our engines.
+{% endcapture %}
+{% include sponsor.md company="SOMS Technologies" url="http://www.microgreenfilter.com/" description=desc logo_url="soms-microgreen.png" logo_w="200" logo_h="238" %}
+
+<h2 class="sponsor-heading">Friends of the Team</h2>
+
+None yet --- please get in touch if you'd like to sponsor us!
+
+{% comment %}
 
 ## [Quality Bearings & Components](http://www.qbcbearings.com/)
 
@@ -103,34 +133,8 @@ Founded in 1895, Lincoln is the world leader in the design, development and manu
 
 Carbotech performance brakes feature a unique brake pad technology that is now being used by pro racers, club racers, tuners, and law enforcement agencies across the country. We receive custom brake pads from Carbotech.
 
-## [GrabCAD](https://grabcad.com)
-
-GrabCAD makes mechanical engineers' lives easier by solving the CAD file management problem. With easy-to-use version control and conflict resolution, GrabCAD allows our designers to work on the same project without worrying about keeping things up to date. Their innovative web viewer makes sharing designs easy, eliminating the need to install an entire CAD package just to view a file.
-
-## [Paramount Metal Finishing](http://www.paramountmetalfinishing.com)
-
-Paramount Metal Finishing specializes in applying coatings on metal and plastic substrates, including plating, painting, and anodizing. The company allows us to use their facilities to color many of our aluminum parts, such as the rockers. 
-
 ## [Timken](http://www.timken.com/)
 
 For more than 100 years, Timken has focused on value creation for diverse industries and market segments. They deliver a variety of friction management and power transmission solutions for applications ranging from aircraft and automobiles to mining equipment and medical instruments. Timken provides the wheel bearings for the car.
 
-## [Tri-Power Design and Engineering](http://www.tripowerdesign.com)
-
-Tri-Power is New Jersey's premier product engineering, design, and manufacturing firm. They specialize in custom manufacturing and functional prototypes, quickly iterating through prototypes to help clients build what they need. In 2014, Tri-Power machined many aluminum parts, including clevises and rockers.
-
-## [Carleton Laboratory](http://carleton.columbia.edu)
-
-The Robert A. W. Carleton Strength of Materials Laboratory is a large facility equipped for research into all types of engineering materials and structural elements. The laboratory also houses experimental facilities to conduct vibration research. Its Water Resource Laboratory is equipped for experimental studies of fluid and sediment transport. Carleton Laboratory allows the team to use one of its Universal Testing Machines to perform strength analyses.
-
-## [Columbia University Facilities](http://facilities.columbia.edu/)
-
-Columbia University Facilities is dedicated to supporting the core educational and research missions of the University by maintaining a safe, beautiful, and functional campus environment. Welder Luis Rodriguez assists us with advanced welding tasks.
-
-## [Activities Board at Columbia](http://www.cuactivitiesboard.org/)
-
-The Activities Board at Columbia (ABC) is the governing board that oversees Columbia FSAE as an undergraduate student group on campus. There are currently 155 organizations recognized by ABC, including cultural clubs, performance groups, publications, and special events.
-
-## [Columbia University Mechanical Engineering](http://me.columbia.edu/)
-
-The Department of Mechanical Engineering is the backbone of Knickerbocker Motorsports. Located on the second floor of Mudd, the Mechanical Engineering department has a state-of-the-art machine shop, CAD computer lab, and the friendlist staff on all of campus!
+{% endcomment %}
