@@ -27,6 +27,11 @@ The Activities Board at Columbia (ABC) is the governing board that oversees Colu
 {% endcapture %}
 {% include sponsor.md company="Columbia Activities Board" url="http://www.cuactivitiesboard.org" description=desc logo_url="columbia-abc.png" logo_w="400" logo_h="213" %}
 
+{% capture desc %}
+Since 1968, Martini Racing has been sponsoring various motorsports teams, including the Porsche teams that won the Le Mans races in 1971, 1976, and 1977. Cars sponsored by Martini --- such as our 2014 vehicle --- bear the iconic blue and red stripes.
+{% endcapture %}
+{% include sponsor.md company="Martini Racing" url="http://www.williamsf1.com/Team/" description=desc logo_url="martini.svg" logo_w="400" logo_h="213" %}
+
 <h2 class="sponsor-heading">Gold Sponsors</h2>
 
 {% capture desc %}
