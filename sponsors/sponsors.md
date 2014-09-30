@@ -28,9 +28,9 @@ The Activities Board at Columbia (ABC) is the governing board that oversees Colu
 {% include sponsor.md company="Columbia Activities Board" url="http://www.cuactivitiesboard.org" description=desc logo_url="columbia-abc.png" logo_w="400" logo_h="213" %}
 
 {% capture desc %}
-Since 1968, Martini Racing has been sponsoring various motorsports teams, including the Porsche teams that won the Le Mans races in 1971, 1976, and 1977. Cars sponsored by Martini --- such as our 2014 vehicle --- bear the iconic blue and red stripes.
+EVS is a leading sheet metal manufacturer that also has the capability to manufacture, assemble, and test entire systems. We have worked has worked closely with EVS's friendly team, cutting and folding chassis tabs, fuel tanks, and trigger wheels in their New Jersey manufacturing facility. 
 {% endcapture %}
-{% include sponsor.md company="Martini Racing" url="http://www.williamsf1.com/Team/" description=desc logo_url="martini.svg" logo_w="400" logo_h="213" %}
+{% include sponsor.md company="EVS Metal" url="http://www.evsmetal.com" description=desc logo_url="evs-metal.svg" logo_w="400" logo_h="235" %}
 
 <h2 class="sponsor-heading">Gold Sponsors</h2>
 
@@ -52,14 +52,14 @@ PTC creates industry-leading products to bring the best in product development s
 <h2 class="sponsor-heading">Silver Sponsors</h2>
 
 {% capture desc %}
-EVS is a leading sheet metal manufacturer that also has the capability to manufacture, assemble, and test entire systems. We have worked has worked closely with EVS's friendly team, cutting and folding chassis tabs, fuel tanks, and trigger wheels in their New Jersey manufacturing facility. 
-{% endcapture %}
-{% include sponsor.md company="EVS Metal" url="http://www.evsmetal.com" description=desc logo_url="evs-metal.svg" logo_w="300" logo_h="213" %}
-
-{% capture desc %}
 GrabCAD makes mechanical engineers' lives easier by solving the CAD file management problem. With easy-to-use version control and conflict resolution, GrabCAD allows our designers to work on the same project without worrying about keeping things up to date. Their innovative web viewer makes sharing designs easy, eliminating the need to install an entire CAD package just to view a file.
 {% endcapture %}
 {% include sponsor.md company="GrabCAD" url="https://grabcad.com/" description=desc logo_url="grabcad.svg" logo_w="300" logo_h="240" %}
+
+{% capture desc %}
+Since 1968, Martini Racing has been sponsoring various motorsports teams, including the Porsche teams that won the Le Mans races in 1971, 1976, and 1977. Cars sponsored by Martini --- such as our 2014 vehicle --- bear the iconic blue and red stripes.
+{% endcapture %}
+{% include sponsor.md company="Martini Racing" url="http://www.williamsf1.com/Team/" description=desc logo_url="martini.svg" logo_w="300" logo_h="190" %}
 
 {% capture desc %}
 As a family owned company, the Morels have been in the foundry industry for generations. Specializing in some of the finest castings in the country, Morel Industries prides itself on quality and quick casting as well as machining. Morel Industries has gratiously helped KM in casting and machining this year's uprights.
