@@ -29,4 +29,4 @@ It also has a lot of stickers.
 
 ## Contributors
 
-Bennett Welker _(Chief Engineer)_, Vinod Nimmagadda _(President)_, Keenan Albee, Kevin Chen, Colin Cowles, Sophia Dolan, Erik Elbieh, Frank Fang, Bill Miller, Chris Miller, Tom Rasmussen, Matt Sheridan, Harry Smart, Lana Wang
+Bennett Welker _(Chief Engineer)_, Vinod Nimmagadda _(President)_, Keenan Albee, Kevin Chen, Colin Cowles, Sophia Dolan, Erik Elbieh, Frank Fang, Bruce Lee, Bill Miller, Chris Miller, Tom Rasmussen, Matt Sheridan, Harry Smart, Lana Wang
