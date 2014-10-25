@@ -442,6 +442,15 @@ a.gallery-item
   margin: 0 7px 7px 0;
 }
 
+/* Members */
+
+.member
+{
+  display: block;
+  float: left;
+  margin: 0px 20px 20px 0px;
+}
+
 /* Sponsors */
 
 .sponsor-logo
