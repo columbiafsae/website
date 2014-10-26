@@ -21,6 +21,7 @@ permalink: /team/2014/
 {% include team-member.html name="Erik Elbieh" caption="Intake & Exhaust" img="2015/erik-elbieh.jpg" %}
 {% include team-member.html name="Frank Fang" caption="Body" img="2016/frank-fang.jpg" %}
 {% include team-member.html name="Bruce Lee" caption="Powertrain" img="2015/bruce-lee.jpg" %}
+{% include team-member.html name="Sam Loor" caption="Driver Interface" img="2014/sam-loor.jpg" %}
 {% include team-member.html name="Bill Miller" caption="Powertrain" img="2015/bill-miller.jpg" %}
 {% include team-member.html name="Chris Miller" caption="Hubs & Uprights" img="2014/chris-miller.jpg" %}
 {% include team-member.html name="Tom Rasmussen" caption="Manufacturing" img="2017/tom-rasmussen.jpg" %}
