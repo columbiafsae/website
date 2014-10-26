@@ -1,7 +1,12 @@
 <div class="member">
-  <img src="{{ site.baseurl }}{{ site.assets}}/team/members/{{ include.img }}" width="180" height="180">
-  <p>
-    <strong>{{ include.name }}</strong><br>
-    {{ include.caption }}
-  </p>
+  <img src="{{ site.baseurl }}{{ site.assets}}/team/members/{{ include.img }}" width="180" height="180" alt="{{ include.name }}">
+  {% comment %}
+  div soup to make captions vertically aligned on mobile. See http://stackoverflow.com/a/2939979
+  {% endcomment %}
+  <div class="member-text-out"><div class="member-text-in"><div>
+    <p>
+      <strong>{{ include.name }}</strong><br>
+      {{ include.caption }}
+    </p>
+  </div></div></div>
 </div>

@@ -557,6 +557,29 @@ a.gallery-item
   {
     display: none;
   }
+  
+  .member
+  {
+    clear: both;
+  }
+  .member img
+  {
+    width: 70px;
+    height: 70px;
+    float: left;
+    margin-right: 20px;
+  }
+  .member-text-out
+  {
+    float: left;
+    display: table;
+    height: 70px;
+  }
+  .member-text-in
+  {
+    display: table-cell;
+    vertical-align: middle;
+  }
 }
 
 @media screen and (max-width: 470px)
