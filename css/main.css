@@ -181,16 +181,13 @@ tr:nth-child(even)
 
 .subnav
 {
-  float: right;
-  position: relative;
-  left: -50%; /* or right 50% */
-  text-align: left;
+  text-align: center;
+  margin: auto;
 }
 
 .subnav > .page-link
 {
-  position: relative;
-  left: 50%;
+  display: inline-block;
 }
 
 .subnav .page-link.selected
