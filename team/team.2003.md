@@ -6,7 +6,7 @@ permalink: /team/2003/
 
 ## Car 98
 
-The 2003 team almost made it to the race, but decided that they were not fully prepaired after a small explostion led to an all-night fabrication session. This car was finished in 2004.
+The 2003 team almost made it to the race, but decided that they were not fully prepared after a small explostion led to an all-night fabrication session. This car was finished in 2004.
 
 <table>
   <thead><tr><th>Name</th><th>Position</th></tr></thead>

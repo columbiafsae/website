@@ -6,7 +6,7 @@ permalink: /team/2006/
 
 ## Car 132
 
-The 2006 car was designed over a two year period, spanning Fall 2004 to Spring 2006. This was the first car from Columbia to pass the rigorous technical inspection. Due to an unfortunate accident on the practice track the car was unable to compete in the dynamic events, however the competition experience was immensely beneficial. Additionally, CUSAE brought members from all class years to the competition, ensuring that the benefits of the competition will be retained in the organization. 
+The 2006 car was designed over a two year period, spanning fall 2004 to spring 2006. This was the first car from Columbia to pass the rigorous technical inspection. Due to an unfortunate accident on the practice track, the car was unable to compete in the dynamic events. However, the competition experience was immensely beneficial. Additionally, CUSAE brought members from all class years to the competition, ensuring that the benefits of the competition will be retained in the organization. 
 
 <table>
   <thead><tr>

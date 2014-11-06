@@ -6,7 +6,7 @@ permalink: /team/2013/
 
 ## Car 19
 
-The 2013 car holds the record for the earliest rolling chassis completion, as record that should be broken before long. The 2013 car held many improvements over its predecessors, most notably being the first KMR to have an aero kit. Besides the fact that the aero kit did not get used at competition, due to unfortunate circumstances the car ran out of gas during endurance! The fact that all hardware held up shows the vehicle was robust and well tested prior to competition.
+The 2013 car holds the record for the earliest rolling chassis completion, as record that should be broken before long. The 2013 car held many improvements over its predecessors, most notably being the first KMR to have an aero kit. Besides the fact that the aero kit did not get used at competition, the car also ran out of gas during endurance! However, the fact that all hardware held up shows the vehicle was robust and well tested prior to competition.
 
 ## Board Positions
 

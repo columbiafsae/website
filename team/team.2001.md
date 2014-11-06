@@ -4,7 +4,7 @@ layout: subnav.team
 permalink: /team/2001/
 ---
 
-The 2001 team's accomplishments included attaining a room to work, getting a significant membership base, and installing some provisions for the continuity of the club. That year, they nicknamed the project **"The car that love built."** Tony ofen referred to the CBR 600 block saying, **"Mark my words, this is the engine that will take us to glory."** Welding practice also gave us the steel tube sculpture, "Mr. SAE".
+The 2001 team's accomplishments included attaining a room to work, getting a significant membership base, and installing some provisions for the continuity of the club. That year, they nicknamed the project "The car that love built." Tony often said "Mark my words, this is the engine that will take us to glory," referring to the CBR&nbsp;600 engine block. Welding practice also gave us the steel tube sculpture, "Mr. SAE".
 
 <table>
   <thead><tr><th>Name</th><th>Position</th></tr></thead>
