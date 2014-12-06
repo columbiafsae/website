@@ -10,6 +10,10 @@ From Fortune 500 companies to local organizations, Knickerbocker Motorsports is 
 
 For more information on sponsorships, please feel free to [contact us]({{ "/contact/" | prepend: site.baseurl }}) directly.
 
+You can also donate to the team online with your credit card.
+
+<p class="center"><button name="button" data-ct-checkout="columbiafsae.columbia-fsae-general-donation">Donate Now</button></p>
+
 <h2 class="sponsor-heading">Title Sponsors</h2>
 
 {% capture desc %}
@@ -143,3 +147,5 @@ Carbotech performance brakes feature a unique brake pad technology that is now b
 For more than 100 years, Timken has focused on value creation for diverse industries and market segments. They deliver a variety of friction management and power transmission solutions for applications ranging from aircraft and automobiles to mining equipment and medical instruments. Timken provides the wheel bearings for the car.
 
 {% endcomment %}
+
+<script type="text/javascript" src="https://open.tilt.com/checkout.js"></script>

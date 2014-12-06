@@ -16,7 +16,7 @@ html, body
   height: 100%;
 }
 
-body, input
+body, input, button
 {
   font-family: AvenirNext, "Segoe UI", Helvetica, sans-serif;
   font-size: 18px;
@@ -337,7 +337,7 @@ ul.posts
 /* Forms */
 
 /* Disable Mobile Safari default appearance */
-input, textarea
+input, textarea, button
 {
   -webkit-appearance: none;
   -webkit-border-radius: 0;
@@ -369,7 +369,8 @@ input[type="email"]:focus
   border: 1px solid {{ site.colors.tint }};
 }
 
-input[type="submit"]
+input[type="submit"],
+button
 {
   background-color: {{ site.colors.tint }};
   cursor: pointer;
@@ -377,7 +378,8 @@ input[type="submit"]
   padding: 15px;
   line-height: 1;
 }
-input[type="submit"]:hover
+input[type="submit"]:hover,
+button:hover
 {
   color: {{ site.colors.background }};
 }
