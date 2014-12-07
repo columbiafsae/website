@@ -1,12 +1,21 @@
 #!/bin/bash
 
+# figure out where the files are going
 USER="kevin"
 REMOTE="columbiafsae.org"
-REMOTE_DIR="/var/www/columbiafsae.org/"
+if [ $# -eq 1 ] && [ $1 == "production" ]; then
+	REMOTE_DIR="/var/www/columbiafsae.org/"
+else
+	REMOTE_DIR="/var/www/beta.columbiafsae.org/"
+fi
 
 echo "Regenerating site..."
 rm -rf _site
 jekyll build > /dev/null
+
+# note the current git version & branch
+git describe --abbrev --dirty --always >> _site/version
+git rev-parse --abbrev-ref HEAD >> _site/version
 
 # sync files to staging area
 echo "Copying files to $REMOTE..."
