@@ -56,6 +56,11 @@ PTC creates industry-leading products to bring the best in product development s
 <h2 class="sponsor-heading">Silver Sponsors</h2>
 
 {% capture desc %}
+Brembo manufactures high-quality, high-performance automotive braking systems for racecars, motorcycles, and more. They have generously donated the Brembo P32 brake calipers that decelerate our car quickly and consistently. 
+{% endcapture %}
+{% include sponsor.md company="Brembo" url="http://www.brembo.com/" description=desc logo_url="brembo.svg" logo_w="300" logo_h="190" %}
+
+{% capture desc %}
 GrabCAD makes mechanical engineers' lives easier by solving the CAD file management problem. With easy-to-use version control and conflict resolution, GrabCAD allows our designers to work on the same project without worrying about keeping things up to date. Their innovative web viewer makes sharing designs easy, eliminating the need to install an entire CAD package just to view a file.
 {% endcapture %}
 {% include sponsor.md company="GrabCAD" url="https://grabcad.com/" description=desc logo_url="grabcad.svg" logo_w="300" logo_h="240" %}
