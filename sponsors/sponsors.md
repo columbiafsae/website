@@ -49,6 +49,11 @@ Coastal Enterprises specializes in manufacturing Precision Board Plus High Densi
 {% include sponsor.md company="Coastal Enterprises" url="http://precisionboard.com" description=desc logo_url="coastal-enterprises.jpg" logo_w="400" logo_h="400" %}
 
 {% capture desc %}
+Founded in 1895, Lincoln is the world leader in the design, development, and manufacture of arc welding products, robotic welding systems, plasma and oxyfuel cutting equipment. Lincoln donated a MIG welder to our team in 2007 and continues to provide us with discounted welding equipment and supplies.
+{% endcapture %}
+{% include sponsor.md company="Lincoln Electric" url="http://www.lincolnelectric.com/" description=desc logo_url="lincoln-electric.svg" logo_w="400" logo_h="267" %}
+
+{% capture desc %}
 PTC creates industry-leading products to bring the best in product development software. Their integrated solutions have enabled PTC to help customers optimize their product development processes and realize greater business value. PTC donates copies of their Pro/Engineer CAD software, which we use heavily in design and analysis for our vehicle components.
 {% endcapture %}
 {% include sponsor.md company="PTC" url="http://www.ptc.com" description=desc logo_url="ptc.svg" logo_w="400" logo_h="300" %}
@@ -93,6 +98,11 @@ Altair makes [HyperWorks](http://www.altairhyperworks.com), an industry-leading 
 {% include sponsor.md company="Altair" url="http://www.altair.com" description=desc logo_url="altair.png" logo_w="200" logo_h="200" %}
 
 {% capture desc %}
+Carbotech performance brakes feature a unique brake pad technology that is now being used by pro racers, club racers, tuners, and law enforcement agencies across the country. We receive custom brake pads from Carbotech.
+{% endcapture %}
+{% include sponsor.md company="Carbotech Performance Brakes" url="http://www.ctbrakes.com/" description=desc logo_url="carbotech.svg" logo_w="200" logo_h="160" %}
+
+{% capture desc %}
 DENSO is a leading supplier of advanced automotive technology, systems, and components for all the world's major automakers. DENSO's patented iridium alloy is extremely tough and wear-resistant. Their Iridium spark plugs give a stronger spark and better ignition performance in all areas of driving. DENSO furnishes our team with Iridium spark plugs.
 {% endcapture %}
 {% include sponsor.md company="DENSO" url="http://densoiridium.com" description=desc logo_url="denso.svg" logo_w="200" logo_h="213" %}
@@ -115,7 +125,12 @@ KDF specializes in large-format printing, such as car wraps, banners, and murals
 {% capture desc %}
 Monster Beverage Corporation created Monster, a popular energy drink. But Monster is more than a drink --- it's a lifestyle in a can. The company sponsors athletes, musicians, and of course, racers. 
 {% endcapture %}
-{% include sponsor.md company="Monster Beverage Corporation" url="http://www.monsterenergy.com" description=desc logo_url="monster.jpg" logo_w="200" logo_h="130" %}
+{% include sponsor.md company="Monster Beverage Corporation" url="http://www.monsterenergy.com" description=desc logo_url="monster.jpg" logo_w="200" logo_h="132" %}
+
+{% capture desc %}
+For more than 100 years, Timken has focused on value creation for diverse industries and market segments. They deliver a variety of friction management and power transmission solutions for applications ranging from aircraft and automobiles to mining equipment and medical instruments. Timken provides the wheel bearings for the car.
+{% endcapture %}
+{% include sponsor.md company="Timken" url="http://www.timken.com/" description=desc logo_url="timken.svg" logo_w="200" logo_h="213" %}
 
 <h2 class="sponsor-heading">Partners</h2>
 
@@ -132,25 +147,5 @@ SOMS Technologies' MicroGreen oil filters are the most advanced filters on the m
 <h2 class="sponsor-heading">Friends of the Team</h2>
 
 None yet --- please get in touch if you'd like to sponsor us!
-
-{% comment %}
-
-## [Quality Bearings & Components](http://www.qbcbearings.com/)
-
-QBC is a a subdivision of Designatronics Inc. which was founded in 1960 and is the nation's leading designer, manufacturer and distributor of small mechanical, electro-mechanical motion control components and sub-assemblies. QBC consistently provides the team with rocker bearings and discounts on wheel bearings through extensive network of bearing manufacturers.
-
-## [Lincoln Electric](http://www.lincolnelectric.com/)
-
-Founded in 1895, Lincoln is the world leader in the design, development and manufacture of arc welding products, robotic welding systems, plasma and oxyfuel cutting equipment. Lincoln donated a MIG welder to our team in 2007 and continues to provide us with discounted welding equipment and supplies.
-
-## [Carbotech Performance Brakes](http://www.ctbrakes.com/)
-
-Carbotech performance brakes feature a unique brake pad technology that is now being used by pro racers, club racers, tuners, and law enforcement agencies across the country. We receive custom brake pads from Carbotech.
-
-## [Timken](http://www.timken.com/)
-
-For more than 100 years, Timken has focused on value creation for diverse industries and market segments. They deliver a variety of friction management and power transmission solutions for applications ranging from aircraft and automobiles to mining equipment and medical instruments. Timken provides the wheel bearings for the car.
-
-{% endcomment %}
 
 <script type="text/javascript" src="https://open.tilt.com/checkout.js"></script>
