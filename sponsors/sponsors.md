@@ -135,6 +135,11 @@ For more than 100 years, Timken has focused on value creation for diverse indust
 <h2 class="sponsor-heading">Partners</h2>
 
 {% capture desc %}
+The Continuum Group has supported Knickerbocker Motorsports by providing their patented CGI-SCIP milspec aluminum mesh as a passive anti-sloshing filler for our fuel tanks. Given that we used it to pass endurance without fuel problems, it does its job well!
+{% endcapture %}
+{% include sponsor.md company="The Continuum Group" url="http://www.cgimil.com/" description=desc logo_url="continuum-group.svg" logo_w="200" logo_h="160" %}
+
+{% capture desc %}
 Paramount Metal Finishing specializes in applying coatings on metal and plastic substrates, including plating, painting, and anodizing. The company allows us to use their facilities to color many of our aluminum parts, such as the rockers. 
 {% endcapture %}
 {% include sponsor.md company="Paramount Metal Finishing" url="http://www.paramountmetalfinishing.com" description=desc logo_url="paramount-metal-finishing.jpg" logo_w="200" logo_h="160" %}
