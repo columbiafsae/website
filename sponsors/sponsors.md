@@ -127,11 +127,6 @@ Monster Beverage Corporation created Monster, a popular energy drink. But Monste
 {% endcapture %}
 {% include sponsor.md company="Monster Beverage Corporation" url="http://www.monsterenergy.com" description=desc logo_url="monster.jpg" logo_w="200" logo_h="132" %}
 
-{% capture desc %}
-For more than 100 years, Timken has focused on value creation for diverse industries and market segments. They deliver a variety of friction management and power transmission solutions for applications ranging from aircraft and automobiles to mining equipment and medical instruments. Timken provides the wheel bearings for the car.
-{% endcapture %}
-{% include sponsor.md company="Timken" url="http://www.timken.com/" description=desc logo_url="timken.svg" logo_w="200" logo_h="213" %}
-
 <h2 class="sponsor-heading">Partners</h2>
 
 {% capture desc %}
