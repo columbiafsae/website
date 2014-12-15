@@ -3,7 +3,12 @@
 # figure out where the files are going
 USER="kevin"
 REMOTE="columbiafsae.org"
+PRODUCTION=false
 if [ $# -eq 1 ] && [ $1 == "production" ]; then
+  PRODUCTION=true
+fi
+
+if [ "$PRODUCTION" == true ]; then
 	REMOTE_DIR="/var/www/columbiafsae.org/"
 else
 	REMOTE_DIR="/var/www/beta.columbiafsae.org/"
@@ -13,12 +18,17 @@ echo "Regenerating site..."
 rm -rf _site
 jekyll build > /dev/null
 
+if [ "$PRODUCTION" == true ]; then
+  echo -ne "Check the contents of _site/. Press return to deploy! "
+  read
+fi
+
 # note the current git version & branch
 git describe --abbrev --dirty --always >> _site/version
 git rev-parse --abbrev-ref HEAD >> _site/version
 
 # sync files to staging area
-echo "Copying files to $REMOTE..."
+echo "Copying files to $REMOTE:$REMOTE_DIR..."
 rsync -az --exclude ".*" --progress --delete-after _site $USER@$REMOTE:$REMOTE_DIR > /dev/null
 
 # delete the old site and copy the new one into place
