@@ -18,6 +18,14 @@ echo "Regenerating site..."
 rm -rf _site
 jekyll build > /dev/null
 
+# Minify site
+if [ "$PRODUCTION" == true ]; then
+  yui-compressor -o '.css$:.css' _site/css/*.css
+  yui-compressor -o '.js$:.js' _site/js/*.js
+  # Regex to remove leading tabs and spaces
+  sed -i "" -e "s/^[ 	]*//g" -e "/^$/d" `find _site -type f -name '[^.]*.svg' -o -name '[^.]*.html'`
+fi
+
 if [ "$PRODUCTION" == true ]; then
   echo -ne "Check the contents of _site/. Press return to deploy! "
   read
