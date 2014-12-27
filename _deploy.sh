@@ -18,6 +18,10 @@ echo "Regenerating site..."
 rm -rf _site
 jekyll build > /dev/null
 
+# note the current git version & branch
+git describe --abbrev --dirty --always >> _site/version
+git rev-parse --abbrev-ref HEAD >> _site/version
+
 # Minify site
 if [ "$PRODUCTION" == true ]; then
   yui-compressor -o '.css$:.css' _site/css/*.css
@@ -30,10 +34,6 @@ if [ "$PRODUCTION" == true ]; then
   echo -ne "Check the contents of _site/. Press return to deploy! "
   read
 fi
-
-# note the current git version & branch
-git describe --abbrev --dirty --always >> _site/version
-git rev-parse --abbrev-ref HEAD >> _site/version
 
 # sync files to staging area
 echo "Copying files to $REMOTE:$REMOTE_DIR..."
