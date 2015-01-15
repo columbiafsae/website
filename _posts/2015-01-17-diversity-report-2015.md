@@ -1,10 +1,16 @@
 ---
 layout: post
 title: "Our 2014–2015 Diversity Report"
-date: 2015-01-13 22:48:00
+date: 2015-01-17 12:48:00
 author: "Kevin Chen"
-meta: "It’s hard to improve the things you can’t measure."
+meta: "It’s hard to improve the things you don’t measure."
 ---
+
+At Knickerbocker Motorsports, we know that the diversity of our team is an important part of our success. Who we are, where we come from, and what we've experienced all affect how we go about identifying and solving problems. We value diversity, and we're always looking for ways to support it. 
+
+Earlier this year, we sent a survey to our members asking them about their background. We're publishing these statistics about our demographics because we care deeply about becoming a more inclusive organization. 
+
+Because this is the first time our team has done something like this, we don't have past data to make comparisons yet. But we plan to administer the same survey each year, starting this year, so we can track our progress toward building a more well rounded team. 
 
 <div style="font-weight: bold; text-align: center;">
   <h3>Race and Ethnicity — All</h3>
@@ -69,9 +75,9 @@ meta: "It’s hard to improve the things you can’t measure."
   <p><img src="{{ "/blog/2015/diversity/2015-grad-year.svg" | prepend: site.assets | prepend: site.baseurl }}" width="300" height="300"></p>
   <p>
     <span style="color: {{ site.colors.subdued }};">2014 — 0%</span><br>
-    <span style="color: {{ site.colors.green }};">2015 — 9%</span><br>
-    <span style="color: {{ site.colors.yellow }};">2016 — 11%</span><br>
-    <span style="color: {{ site.colors.blue_lt }};">2017 — 7%</span><br>
+    <span style="color: {{ site.colors.green }};">2015 — 20%</span><br>
+    <span style="color: {{ site.colors.yellow }};">2016 — 25%</span><br>
+    <span style="color: {{ site.colors.blue_lt }};">2017 — 16%</span><br>
     <span style="color: {{ site.colors.red }};">2018 — 39%</span><br>
   </p>
   <hr>
