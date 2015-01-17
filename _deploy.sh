@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# figure out where the files are going
+# Figure out where the files are going
 USER="kevin"
 REMOTE="columbiafsae.org"
 PRODUCTION=false
@@ -14,11 +14,12 @@ else
 	REMOTE_DIR="/var/www/beta.columbiafsae.org/"
 fi
 
+# Build the site
+# This should use incremental builds when that feature comes out
 echo "Regenerating site..."
-rm -rf _site
 jekyll build > /dev/null
 
-# note the current git version & branch
+# Note the current git version & branch
 git describe --abbrev --dirty --always >> _site/version
 git rev-parse --abbrev-ref HEAD >> _site/version
 
@@ -30,21 +31,24 @@ if [ "$PRODUCTION" == true ]; then
   sed -i "" -e "s/^[ 	]*//g" -e "/^$/d" `find _site -type f -name '[^.]*.svg' -o -name '[^.]*.html'`
 fi
 
+# Confirm the user wants to deploy
 if [ "$PRODUCTION" == true ]; then
+  echo ">> Deploying to PRODUCTION <<"
   echo -ne "Check the contents of _site/. Press return to deploy! "
   read
 fi
 
-# sync files to staging area
+# Sync files to staging area
 echo "Copying files to $REMOTE:$REMOTE_DIR..."
-rsync -az --exclude ".*" --progress --delete-after _site $USER@$REMOTE:$REMOTE_DIR > /dev/null
 
-# delete the old site and copy the new one into place
+ssh $USER@$REMOTE "mkdir -p $REMOTE_DIR/staging/"
+rsync -av --delete --exclude ".*" _site/ $USER@$REMOTE:$REMOTE_DIR/staging/ > /dev/null
+
+# Switch over to the new site
 echo "Moving files into place..."
 ssh $USER@$REMOTE "cd $REMOTE_DIR && \
-	cp -r _site public_html.new && \
-	mv public_html public_html.old && \
-	mv public_html.new public_html && \
-	rm -rf public_html.old"
+  mv public_html public_html.old && \
+  mv staging public_html && \
+  mv public_html.old staging"
 
 echo "Done!"
