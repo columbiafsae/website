@@ -8,9 +8,9 @@ meta: "It’s hard to improve the things you don’t measure."
 
 At Knickerbocker Motorsports, we know that the diversity of our team is an important part of our success. Who we are, where we come from, and what we've experienced all affect how we go about identifying and solving problems. We value diversity, and we're always looking for ways to support it. 
 
-Earlier this year, we sent a survey to our members asking them about their background. We're publishing these statistics about our demographics because we care deeply about becoming a more inclusive organization. 
+Earlier this year, we sent a survey to our members asking them about their background. The survey was open for four weeks. By the end, about 41&nbps;percent of our members had responded.
 
-Because this is the first time our team has done something like this, we don't have past data to make comparisons yet. But we plan to administer the same survey each year, starting this year, so we can track our progress toward building a more well rounded team. 
+We're publishing these statistics about our demographics because we care deeply about becoming a more inclusive organization. This is the first time our team has done something like this, so we don't have past data to make comparisons yet. But we plan to administer the same survey each year, starting this year, to track our progress toward building a more well rounded team. 
 
 <div style="font-weight: bold; text-align: center;">
   <h3>Race and Ethnicity — All</h3>
