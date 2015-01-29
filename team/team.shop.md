@@ -19,7 +19,7 @@ Over the course of the school year, students learn to use 3D printing, machinabl
 result = "Door Sensor";
 
 var req = new XMLHttpRequest();
-req.open("GET", "http://door.servebeer.com/", false);
+req.open("GET", "http://door.columbiafsae.org/", false);
 req.send(null);
 if (req.status == 200)
 {
@@ -32,7 +32,7 @@ document.getElementById("shop-status").innerHTML = result;
 
 <h2 id="shop-status">Door Sensor</h2>
 
-[Find out if we’re in the shop.](http://door.servebeer.com/) We attached a Hall-effect sensor and a Raspberry Pi to the door of our shop. When you click the link, the Pi reads the sensor’s output and responds with the appropriate webpage.
+[Find out if we’re in the shop.](http://door.columbiafsae.org/) We attached a Hall-effect sensor and a Raspberry Pi to the door of our shop. When you click the link, the Pi reads the sensor’s output and responds with the appropriate webpage.
 
 ## Major Equipment
 
