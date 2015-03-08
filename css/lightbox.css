@@ -1,5 +1,5 @@
 ---
-layout: none
+layout:
 ---
 
 {% capture base %}{{ "/lightbox" | prepend: site.assets | prepend: site.baseurl }}{% endcapture %}
