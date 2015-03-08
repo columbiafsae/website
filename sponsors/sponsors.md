@@ -10,10 +10,6 @@ From Fortune 500 companies to local organizations, Knickerbocker Motorsports is 
 
 For more information on sponsorships, please feel free to [contact us]({{ "/contact/" | prepend: site.baseurl }}) directly.
 
-You can also donate to the team online with your credit card.
-
-<p class="center"><button name="button" data-ct-checkout="columbiafsae.columbia-fsae-general-donation">Donate Now</button></p>
-
 <h2 class="sponsor-heading">Title Sponsors</h2>
 
 {% capture desc %}
