@@ -21,7 +21,6 @@ permalink: /team/2015/
 {% include team-member.html name="Colin Cowles" caption="Fuel & Engine" img="2015/colin-cowles.jpg" %}
 {% include team-member.html name="Sophia Dolan" caption="Chassis" img="2016/sophia-dolan-2.jpg" %}
 {% include team-member.html name="Frank Yuxing Fang" caption="Body" img="2016/frank-fang-2.jpg" %}
-{% include team-member.html name="Bruce Lee" caption="Intake" img="2015/bruce-lee.jpg" %}
 {% include team-member.html name="Patrick Lin" caption="Assistant Treasurer" img="2018/patrick-lin.jpg" %}
 {% include team-member.html name="Bill Miller" caption="Cooling" img="2015/bill-miller.jpg" %}
 {% include team-member.html name="Pedro Piacenza" caption="Sensors" img="2015/pedro-piacenza.jpg" %}
@@ -36,6 +35,7 @@ permalink: /team/2015/
 {% include team-member.html name="Jonathan Chang" caption="Brakes" img="2018/jonathan-chang.jpg" %}
 {% include team-member.html name="Chris Conte" caption="Fuel & Engine" img="2018/chris-conte.jpg" %}
 {% include team-member.html name="Anna Juchnicki" caption="Suspension" img="2017/anna-juchnicki.jpg" %}
+{% include team-member.html name="Bruce Lee" caption="Intake" img="2015/bruce-lee.jpg" %}
 {% include team-member.html name="Alex Malouf" caption="Marketing & Brand" img="2018/alex-malouf.jpg" %}
 {% include team-member.html name="Vinay Mehta" caption="Fuel & Engine" img="2018/vinay-mehta.jpg" %}
 {% include team-member.html name="Manjul Pahwa" caption="Brakes" img="2018/manjul-pahwa.jpg" %}
