@@ -50,6 +50,11 @@ Founded in 1895, Lincoln is the world leader in the design, development, and man
 {% include sponsor.md company="Lincoln Electric" url="http://www.lincolnelectric.com/" description=desc logo_url="lincoln-electric.svg" logo_w="400" logo_h="267" %}
 
 {% capture desc %}
+Nu-Cast is an aluminum foundry that specializes in taking ideas presented to us by the engineers of our clients and creating an application that previously had not existed, using aluminum investment castings. We call this process concurrent engineering, and it is the genesis of many successful products we manufacture today. For KMR-2015, Nu-Cast generously casted all four of our car's uprights from A356-T6 aluminum.
+{% endcapture %}
+{% include sponsor.md company="Nu-Cast" url="http://www.nu-cast.com/" description=desc logo_url="nu-cast.png" logo_w="400" logo_h="325" %}
+
+{% capture desc %}
 PTC creates industry-leading products to bring the best in product development software. Their integrated solutions have enabled PTC to help customers optimize their product development processes and realize greater business value. PTC donates copies of their Pro/Engineer CAD software, which we use heavily in design and analysis for our vehicle components.
 {% endcapture %}
 {% include sponsor.md company="PTC" url="http://www.ptc.com" description=desc logo_url="ptc.svg" logo_w="400" logo_h="300" %}
@@ -143,5 +148,3 @@ SOMS Technologies' MicroGreen oil filters are the most advanced filters on the m
 <h2 class="sponsor-heading">Friends of the Team</h2>
 
 None yet --- please get in touch if you'd like to sponsor us!
-
-<script type="text/javascript" src="https://open.tilt.com/checkout.js"></script>
