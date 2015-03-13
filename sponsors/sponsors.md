@@ -1,6 +1,6 @@
 ---
 title: "Sponsors"
-layout: page
+layout: subnav.sponsors
 permalink: /sponsors/
 ---
 
