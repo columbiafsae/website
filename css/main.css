@@ -63,6 +63,14 @@ tr:nth-child(even)
     background-color: {{ site.colors.pastel }};
 }
 
+hr
+{
+  width: 60%;
+  margin: 1em auto 1em 20%;
+  height: 3px;
+  background: {{ site.colors.subdued }};
+}
+
 .columns, .columns-2
 {
   column-count: 2;
