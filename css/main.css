@@ -391,6 +391,13 @@ button:hover
 {
   color: {{ site.colors.background }};
 }
+input[type="submit"]:disabled,
+button:disabled
+{
+  color: {{ site.colors.pastel }};
+  cursor: not-allowed;
+  opacity: 0.5;
+}
 
 /* Homepage */
 
