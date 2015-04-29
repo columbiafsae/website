@@ -21,7 +21,7 @@ The 2013 car holds the record for the earliest rolling chassis completion, as re
     <tr><td>Sakina Pasha</td><td>President</td><td>BC'13</td></tr>
     <tr><td>Miguel Rodriguez</td><td>Chief Engineer</td><td>SEAS'13</td></tr>
     <tr><td>Annie Liu</td><td>Secretary</td><td>SEAS'13</td></tr>
-    <tr><td>Vinny Namagada</td><td>Treasurer</td><td>CC'14</td></tr>
+    <tr><td>Vinny Nimmagadda</td><td>Treasurer</td><td>CC'14</td></tr>
   </tbody>
 </table>
 
