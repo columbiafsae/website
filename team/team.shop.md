@@ -14,26 +14,6 @@ Knickerbocker Motorsports members have access to some of the finest design and m
 
 Over the course of the school year, students learn to use 3D printing, machinable wax models, CNC mills, and more to develop precise parts for our car. Mechanical engineers get a head start in gaining hands-on experience toward their majors, while students from other departments have the opportunity of learning to use equipment they wouldn’t have been exposed to otherwise.
 
-{% comment %}
-<script type="text/javascript">
-result = "Door Sensor";
-
-var req = new XMLHttpRequest();
-req.open("GET", "http://door.columbiafsae.org/", false);
-req.send(null);
-if (req.status == 200)
-{
-  dump(req.responseText);
-}
-
-document.getElementById("shop-status").innerHTML = result;
-</script>
-{% endcomment %}
-
-<h2 id="shop-status">Door Sensor</h2>
-
-[Find out if we’re in the shop.](http://door.columbiafsae.org/) We attached a Hall-effect sensor and a Raspberry Pi to the door of our shop. When you click the link, the Pi reads the sensor’s output and responds with the appropriate webpage.
-
 ## Major Equipment
 
 <div class="columns">
