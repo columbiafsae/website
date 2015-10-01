@@ -58,7 +58,6 @@ permalink: /sponsors/become-a-sponsor/
     </tr>
     <tr>
       <th>Shirt Logo</th>
-      <td>XL</td>
       <td>L</td>
       <td>M</td>
       <td>S</td>
