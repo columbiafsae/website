@@ -8,6 +8,7 @@ permalink: /sponsors/become-a-sponsor/
   <thead>
     <tr>
       <th>Level</th>
+      <th>Title</th>
       <th>Platinum</th>
       <th>Gold</th>
       <th>Silver</th>
@@ -18,6 +19,7 @@ permalink: /sponsors/become-a-sponsor/
   <tbody>
     <tr>
       <th>Donation</th>
+      <td><a href="{{ "/contact/" | prepend: site.baseurl }}">Contact Us</a></td>
       <td>$10,000</td>
       <td>$5,000</td>
       <td>$1,500</td>
@@ -26,6 +28,7 @@ permalink: /sponsors/become-a-sponsor/
     </tr>
     <tr>
       <th>Car Decal</th>
+      <td>Car Livery</td>
       <td>L</td>
       <td>M</td>
       <td>S</td>
@@ -34,6 +37,7 @@ permalink: /sponsors/become-a-sponsor/
     </tr>
     <tr>
       <th>Trailer Decal</th>
+      <td>XL</td>
       <td>L</td>
       <td>M</td>
       <td>S</td>
@@ -42,6 +46,7 @@ permalink: /sponsors/become-a-sponsor/
     </tr>
     <tr>
       <th>Website</th>
+      <td>Feature</td>
       <td>Blurb</td>
       <td>Blurb</td>
       <td>Blurb</td>
@@ -51,6 +56,7 @@ permalink: /sponsors/become-a-sponsor/
     <tr>
       <th>Social Media</th>
       <td>Promoted</td>
+      <td>Promoted</td>
       <td>Post</td>
       <td>Post</td>
       <td>Post</td>
@@ -58,6 +64,7 @@ permalink: /sponsors/become-a-sponsor/
     </tr>
     <tr>
       <th>Shirt Logo</th>
+      <td>XL</td>
       <td>L</td>
       <td>M</td>
       <td>S</td>
@@ -69,11 +76,13 @@ permalink: /sponsors/become-a-sponsor/
       <td>Yes</td>
       <td>Yes</td>
       <td>Yes</td>
+      <td>Yes</td>
       <td>No</td>
       <td>No</td>
     </tr>
     <tr>
       <th>Team Shirt</th>
+      <td>Yes</td>
       <td>Yes</td>
       <td>Yes</td>
       <td>Yes</td>
