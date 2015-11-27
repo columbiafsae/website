@@ -5,8 +5,11 @@ permalink: /team/2016/
 ---
 
 ## Executive Board
-{% include team-member.html name="Gwen Archambault" caption="Steering" img="2016/gwen-archambault.jpg" %}
-{% include team-member.html name="Patrick Lin" caption="Assistant Treasurer" img="2018/patrick-lin.jpg" %}
+{% include team-member.html name="Sydney Sherman" caption="Chief Engineer" img="2018/patrick-lin.jpg" %}
+{% include team-member.html name="Gwen Archambault" caption="President" img="2016/gwen-archambault.jpg" %}
+{% include team-member.html name="India Madisetti" caption="Vice President" img="2018/patrick-lin.jpg" %}
+{% include team-member.html name="Patrick Lin" caption="Treasurer" img="2018/patrick-lin.jpg" %}
+
 
 <div class="clear"></div>
 
