@@ -1,5 +1,0 @@
-{% loopdir directory:include.image_base iterator:image filter:*.jpg sort:ascending %}
-<a class="gallery-item" href="{{ include.image_base }}{{ image }}" data-lightbox="{{ include.gallery_id }}">
-  <img class="gallery-item" src="{{ include.image_base }}thumbs/{{ image }}" height="150">
-</a>
-{% endloopdir %}
