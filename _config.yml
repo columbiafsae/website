@@ -19,7 +19,7 @@ navlinks:
   - title: "Team"
     url: "/team/"
   - title: "Gallery"
-    url: "/gallery/2014/"
+    url: "/gallery/2015/"
   - title: "Blog"
     url: "/blog/"
   - title: "Sponsors"
@@ -48,7 +48,39 @@ colors:
 
 # Galleries
 mini_magick:
-  thumbnail:
+  2015:
+    source: assets/galleries/2015
+    destination: assets/galleries/2015/thumbs
+    resize: "x300"
+  2014:
     source: assets/galleries/2014
     destination: assets/galleries/2014/thumbs
+    resize: "x300"
+  2013:
+    source: assets/galleries/2013
+    destination: assets/galleries/2013/thumbs
+    resize: "x300"
+  2012:
+    source: assets/galleries/2012
+    destination: assets/galleries/2012/thumbs
+    resize: "x300"
+  2011:
+    source: assets/galleries/2011
+    destination: assets/galleries/2011/thumbs
+    resize: "x300"
+  2010:
+    source: assets/galleries/2010
+    destination: assets/galleries/2010/thumbs
+    resize: "x300"
+  2009:
+    source: assets/galleries/2009
+    destination: assets/galleries/2009/thumbs
+    resize: "x300"
+  2008:
+    source: assets/galleries/2008
+    destination: assets/galleries/2008/thumbs
+    resize: "x300"
+  before2008:
+    source: assets/galleries/before2008
+    destination: assets/galleries/before2008/thumbs
     resize: "x300"
