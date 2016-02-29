@@ -32,6 +32,13 @@ EVS is a leading sheet metal manufacturer that also has the capability to manufa
 {% endcapture %}
 {% include sponsor.md company="EVS Metal" url="http://www.evsmetal.com" description=desc logo_url="evs-metal.svg" logo_w="400" logo_h="235" %}
 
+<h2 class="sponsor-heading">Platinum Sponsors</h2>
+
+{% capture desc %}
+Monster Tool makes high quality carbide machine tools including end mills, center bits, drill bits, and other speciality parts. Monster Tool graciously donated carbide tools to our team that have extended our machining capabilities greatly.
+{% endcapture %}
+{% include sponsor.md company="Monster Tool" url="http://www.monstertool.com/" description=desc logo_url="monster-tool-company.jpg" logo_w="300" logo_h="190" %}
+
 <h2 class="sponsor-heading">Gold Sponsors</h2>
 
 {% capture desc %}
@@ -59,6 +66,16 @@ PTC creates industry-leading products to bring the best in product development s
 {% endcapture %}
 {% include sponsor.md company="PTC" url="http://www.ptc.com" description=desc logo_url="ptc.svg" logo_w="400" logo_h="300" %}
 
+{% capture desc %}
+Realize invests in the latest rapid prototyping technologies to provide superior quality rapid prototypes from small, intricate stereolithography models requiring high-resolution to the largest SLA prototype or special custom projects. Realize has graciously given our team discounts on 3-d printing our intakes and intake plenums.
+{% endcapture %}
+{% include sponsor.md company="Realize" url="http://www.realizeinc.com/" description=desc logo_url="realize.jpg" logo_w="400" logo_h="255" %}
+
+{% capture desc %}
+Remy builds large starter motors and traction motors for hybrid vehicles. Remy graciously donated an HVH-250 electric motor that we will use to build our very first electric car.
+{% endcapture %}
+{% include sponsor.md company="Remy" url="https://www.remyinc.com/" description=desc logo_url="remy.jpeg" logo_w="400" logo_h="275" %}
+
 <h2 class="sponsor-heading">Silver Sponsors</h2>
 
 {% capture desc %}
@@ -67,19 +84,19 @@ Brembo manufactures high-quality, high-performance automotive braking systems fo
 {% include sponsor.md company="Brembo" url="http://www.brembo.com/" description=desc logo_url="brembo.svg" logo_w="300" logo_h="190" %}
 
 {% capture desc %}
-GrabCAD makes mechanical engineers' lives easier by solving the CAD file management problem. With easy-to-use version control and conflict resolution, GrabCAD allows our designers to work on the same project without worrying about keeping things up to date. Their innovative web viewer makes sharing designs easy, eliminating the need to install an entire CAD package just to view a file.
+Kulite Semiconductor is a global leader in pressure measurement technology. Kulite graciously donated two pressure transducers for our brake lines.
 {% endcapture %}
-{% include sponsor.md company="GrabCAD" url="https://grabcad.com/" description=desc logo_url="grabcad.svg" logo_w="300" logo_h="240" %}
+{% include sponsor.md company="Kulite" url="http://www.kulite.com/" description=desc logo_url="kulite-semiconductor.jpg" logo_w="300" logo_h="190" %}
 
 {% capture desc %}
-Since 1968, Martini Racing has been sponsoring various motorsports teams, including the Porsche teams that won the Le Mans races in 1971, 1976, and 1977. Cars sponsored by Martini --- such as our 2014 vehicle --- bear the iconic blue and red stripes.
+Hexion Inc, formerly Momentive Specialty Chemicals Inc, makes thermoset resins used in the construction, transportation, electronics and automotive industries. Hexion graciously donated both base resin and curing agent that we use for our carbon fibre parts. 
 {% endcapture %}
-{% include sponsor.md company="Martini Racing" url="http://www.williamsf1.com/Team/" description=desc logo_url="martini.svg" logo_w="300" logo_h="190" %}
+{% include sponsor.md company="Hexion" url="https://www.hexion.com/" description=desc logo_url="hexion.jpg" logo_w="300" logo_h="150" %}
 
 {% capture desc %}
-As a family owned company, the Morels have been in the foundry industry for generations. Specializing in some of the finest castings in the country, Morel Industries prides itself on quality and quick casting as well as machining. Morel Industries has gratiously helped KM in casting and machining this year's uprights.
+Northeast Custom Trailers sells high quality trailers and also specializes in trailer repairs and services. Northeast Custom Trailers graciously gave us a discount on our trailer. 
 {% endcapture %}
-{% include sponsor.md company="Morel Industries" url="http://www.morelindustries.com/aluminum-metal-castings-foundry-company-seattle-washington" description=desc logo_url="morel-industries.svg" logo_w="300" logo_h="213" %}
+{% include sponsor.md company="Northeast Custom Trailers" url="http://necustomtrailers.com//" description=desc logo_url="northeast-custom-trailers.jpg" logo_w="300" logo_h="190" %}
 
 {% capture desc %}
 Tri-Power is New Jersey's premier product engineering, design, and manufacturing firm. They specialize in custom manufacturing and functional prototypes, quickly iterating through prototypes to help clients build what they need. In 2014, Tri-Power machined many aluminum parts, including clevises and rockers.
@@ -87,9 +104,15 @@ Tri-Power is New Jersey's premier product engineering, design, and manufacturing
 {% include sponsor.md company="Tri-Power Design and Engineering" url="http://www.tripowerdesign.com" description=desc logo_url="tri-power-design.png" logo_w="300" logo_h="213" %}
 
 {% capture desc %}
+Quality Bearings & Components is an authorized distributor for some of the world's largest bearings and linear motion manufacturers including: Thomson Industries, INA Bearings Co., Bishop-Wisecarver, THK of America, Heim Bearing, Roller Bearing Co., and many more. QBC gave our team a discount on bearings.
+{% endcapture %}
+{% include sponsor.md company="Quality Bearings & Components" url="http://qbcbearings.com/" description=desc logo_url="qbc.png" logo_w="300" logo_h="175" %}
+
+{% capture desc %}
 Zoltek is one of the world's leading provider of commercial carbon fiber products. Their high purity carbon fiber is used in everything --- including sporting goods, automobiles, and renewable energy projects. Zoltek has generously provided KM with uni-directional carbon fiber for our aerodynamics projects. We look forward to using more of Zoltek's carbon fiber products in the years to come.
 {% endcapture %}
 {% include sponsor.md company="Zoltek Companies" url="http://www.zoltek.com/" description=desc logo_url="zoltek.svg" logo_w="300" logo_h="270" %}
+
 
 <h2 class="sponsor-heading">Bronze Sponsors</h2>
 
@@ -99,9 +122,9 @@ Altair makes [HyperWorks](http://www.altairhyperworks.com), an industry-leading 
 {% include sponsor.md company="Altair" url="http://www.altair.com" description=desc logo_url="altair.png" logo_w="200" logo_h="200" %}
 
 {% capture desc %}
-Carbotech performance brakes feature a unique brake pad technology that is now being used by pro racers, club racers, tuners, and law enforcement agencies across the country. We receive custom brake pads from Carbotech.
+Aurora Bearing Company manufactures the world’s most complete range of rod end and spherical bearings. Aurora Bearing graciously gave our team a discounted price on bearings we use for our car.
 {% endcapture %}
-{% include sponsor.md company="Carbotech Performance Brakes" url="http://www.ctbrakes.com/" description=desc logo_url="carbotech.svg" logo_w="200" logo_h="160" %}
+{% include sponsor.md company="Aurora Bearing Company" url="http://www.aurorabearing.com/" description=desc logo_url="aurora-bearing-company.gif" logo_w="200" logo_h="200" %}
 
 {% capture desc %}
 DENSO is a leading supplier of advanced automotive technology, systems, and components for all the world's major automakers. DENSO's patented iridium alloy is extremely tough and wear-resistant. Their Iridium spark plugs give a stronger spark and better ignition performance in all areas of driving. DENSO furnishes our team with Iridium spark plugs.
@@ -128,22 +151,27 @@ Monster Beverage Corporation created Monster, a popular energy drink. But Monste
 {% endcapture %}
 {% include sponsor.md company="Monster Beverage Corporation" url="http://www.monsterenergy.com" description=desc logo_url="monster.jpg" logo_w="200" logo_h="132" %}
 
-<h2 class="sponsor-heading">Partners</h2>
+{% capture desc %}
+Radium Engineering LLC is an aftermarket automotive company located in the Pacific Northwest that designs and produces quality performance products. Radium graciously donated a feul surge tank.
+{% endcapture %}
+{% include sponsor.md company="Radium Engineering LLC" url="https://www.radiumauto.com/" description=desc logo_url="radium-engineering.jpg" logo_w="200" logo_h="132" %}
 
 {% capture desc %}
-The Continuum Group has supported Knickerbocker Motorsports by providing their patented CGI-SCIP milspec aluminum mesh as a passive anti-sloshing filler for our fuel tanks. Given that we used it to pass endurance without fuel problems, it does its job well!
+Steinjäger produces suspension componenets and systems, including four link suspesions, control arms and panhard bars. Steinjäger graciously donated weld nuts for our car.
 {% endcapture %}
-{% include sponsor.md company="The Continuum Group" url="http://www.cgimil.com/" description=desc logo_url="continuum-group.svg" logo_w="200" logo_h="160" %}
+{% include sponsor.md company="Steinjäger" url="http://steinjager.com/" description=desc logo_url="steinjager.png" logo_w="200" logo_h="132" %}
 
 {% capture desc %}
-Paramount Metal Finishing specializes in applying coatings on metal and plastic substrates, including plating, painting, and anodizing. The company allows us to use their facilities to color many of our aluminum parts, such as the rockers. 
+Vibrant Performance, a division of Vibrant Power Inc, is a global leader in the design and production of exhaust and vibration control components and assemblies. Vibrant graciously donated tubing to our team. 
 {% endcapture %}
-{% include sponsor.md company="Paramount Metal Finishing" url="http://www.paramountmetalfinishing.com" description=desc logo_url="paramount-metal-finishing.jpg" logo_w="200" logo_h="160" %}
+{% include sponsor.md company="Vibrant Performance" url="http://www.vibrantperformance.com/" description=desc logo_url="vibrant-performance.png" logo_w="200" logo_h="132" %}
+
+<h2 class="sponsor-heading">Support</h2>
 
 {% capture desc %}
-SOMS Technologies' MicroGreen oil filters are the most advanced filters on the market. The feature a patented active and passive filtration system that has been proven to increase the life of the oil, reduce oil consumption, and reduce oil filter consumption. MicroGreen oil filters are designed to protect engines and the environment. SOMS Technologies provides KM with oil filters and testing equipment for our engines.
+iRacing.com offers the most authentic online racing experience, using the latest technology for its staggering, ever-expanding lineup of famed racecars and courses. iRacing makes the racing simulator we use in our shop. 
 {% endcapture %}
-{% include sponsor.md company="SOMS Technologies" url="http://www.microgreenfilter.com/" description=desc logo_url="soms-microgreen.png" logo_w="200" logo_h="238" %}
+{% include sponsor.md company="iRacing" url="http://www.iracing.com/" description=desc logo_url="iracing.png" logo_w="200" logo_h="190" %}
 
 <h2 class="sponsor-heading">Friends of the Team</h2>
 
