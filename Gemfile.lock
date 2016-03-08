@@ -71,8 +71,8 @@ PLATFORMS
 DEPENDENCIES
   graphicsmagick
   image_magick
-  jekyll
+  jekyll (= 2.5.3)
   jekyll-minimagick
 
 BUNDLED WITH
-   1.10.6
+   1.11.2

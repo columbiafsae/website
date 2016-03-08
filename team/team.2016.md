@@ -33,6 +33,7 @@ permalink: /team/2016/
 {% include team-member.html name="Amanda Jimenez" caption="Engine" img="2017/amanda-jimenez.jpg" %}
 {% include team-member.html name="Blair Kanina" caption="Systems Integration" img="/fsae_logo_light.jpg" %}
 {% include team-member.html name="Aziz Ketari" caption="Engine" img="2018/aziz-ketari.jpg" %}
+{% include team-member.html name="Eugene Lee" caption="Infra" img="2018/eugene-lee.jpg" %}
 {% include team-member.html name="Jason Liang" caption="Tires" img="2018/jason-liang.jpg" %}
 {% include team-member.html name="Vinay Mehta" caption="Sponsorship" img="2018/vinay-mehta-2.jpg" %}
 {% include team-member.html name="Xuelong Mu" caption="Fuel" img="2016/xuelong-mu.jpg" %}
