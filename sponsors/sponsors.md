@@ -18,7 +18,7 @@ Alcoa is not only the world's leader in aluminum production and fabrication, but
 {% include sponsor.md company="Alcoa" url="http://www.alcoa.com" description=desc logo_url="alcoa.svg" logo_w="400" logo_h="300" %}
 
 {% capture desc %}
-The Department of Mechanical Engineering is the backbone of Knickerbocker Motorsports. Located on the second floor of Mudd, the Mechanical Engineering department has a state-of-the-art machine shop, CAD computer lab, and the friendlist staff on all of campus!
+The Department of Mechanical Engineering is the backbone of Knickerbocker Motorsports. Located on the second floor of Mudd, the Mechanical Engineering department has a state-of-the-art machine shop, CAD computer lab, and the friendliest staff on all of campus!
 {% endcapture %}
 {% include sponsor.md company="Columbia University Mechanical Engineering" url="http://me.columbia.edu/" description=desc logo_url="columbia-engineering.svg" logo_w="400" logo_h="240" %}
 
@@ -35,7 +35,7 @@ EVS is a leading sheet metal manufacturer that also has the capability to manufa
 <h2 class="sponsor-heading">Platinum Sponsors</h2>
 
 {% capture desc %}
-Monster Tool makes high quality carbide machine tools including end mills, center bits, drill bits, and other speciality parts. Monster Tool graciously donated carbide tools to our team that have extended our machining capabilities greatly.
+Monster Tool makes high quality carbide machine tools including end mills, center bits, drill bits, and other specialty parts. Monster Tool graciously donated carbide tools to our team that have extended our machining capabilities greatly.
 {% endcapture %}
 {% include sponsor.md company="Monster Tool" url="http://www.monstertool.com/" description=desc logo_url="monster-tool-company.jpg" logo_w="300" logo_h="190" %}
 
@@ -89,7 +89,7 @@ Kulite Semiconductor is a global leader in pressure measurement technology. Kuli
 {% include sponsor.md company="Kulite" url="http://www.kulite.com/" description=desc logo_url="kulite-semiconductor.jpg" logo_w="300" logo_h="190" %}
 
 {% capture desc %}
-Hexion Inc, formerly Momentive Specialty Chemicals Inc, makes thermoset resins used in the construction, transportation, electronics and automotive industries. Hexion graciously donated both base resin and curing agent that we use for our carbon fibre parts. 
+Hexion Inc, formerly Momentive Specialty Chemicals Inc, makes thermoset resins used in the construction, transportation, electronics and automotive industries. Hexion graciously donated both base resin and curing agent that we use for our carbon fiber parts. 
 {% endcapture %}
 {% include sponsor.md company="Hexion" url="https://www.hexion.com/" description=desc logo_url="hexion.jpg" logo_w="300" logo_h="150" %}
 
@@ -152,12 +152,12 @@ Monster Beverage Corporation created Monster, a popular energy drink. But Monste
 {% include sponsor.md company="Monster Beverage Corporation" url="http://www.monsterenergy.com" description=desc logo_url="monster.jpg" logo_w="200" logo_h="132" %}
 
 {% capture desc %}
-Radium Engineering LLC is an aftermarket automotive company located in the Pacific Northwest that designs and produces quality performance products. Radium graciously donated a feul surge tank.
+Radium Engineering LLC is an aftermarket automotive company located in the Pacific Northwest that designs and produces quality performance products. Radium graciously donated a fuel surge tank.
 {% endcapture %}
 {% include sponsor.md company="Radium Engineering LLC" url="https://www.radiumauto.com/" description=desc logo_url="radium-engineering.jpg" logo_w="200" logo_h="132" %}
 
 {% capture desc %}
-Steinjäger produces suspension componenets and systems, including four link suspesions, control arms and panhard bars. Steinjäger graciously donated weld nuts for our car.
+Steinjäger produces suspension components and systems, including four link suspensions, control arms and panhard bars. Steinjäger graciously donated weld nuts for our car.
 {% endcapture %}
 {% include sponsor.md company="Steinjäger" url="http://steinjager.com/" description=desc logo_url="steinjager.png" logo_w="200" logo_h="132" %}
 
