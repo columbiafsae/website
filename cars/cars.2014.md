@@ -6,7 +6,7 @@ permalink: /cars/2014/
 
 KMR-2014 is our fastest, lightest car yet. Weighing in at just 483&nbsp;lb (219&nbsp;kg), it achieves a 0-to-60 time of less than 4.2&nbsp;seconds.
 
-The major innvoation is serious weight loss. The hubs are 39&nbsp;percent lighter. Suspension links lost 40&nbsp;percent and rockers dropped by 50&nbsp;percent.
+The major innovation is serious weight loss. The hubs are 39&nbsp;percent lighter. Suspension links lost 40&nbsp;percent and rockers dropped by 50&nbsp;percent.
 
 It also has a lot of stickers.
 
